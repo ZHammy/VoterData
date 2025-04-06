@@ -1,0 +1,445 @@
+Candidate ID,Precinct,Term Expires,Active?,FirstName,MiddleName,LastName,Name,Suffix,Mail To,Address,UnitNumber,City,State,PostalCode,Other Titles,EMail,HomePhone
+1,1,2025,Active,Ana,,Albuquerque,Ana Albuquerque,,,24 Euston Street,2,Brookline,MA,02446,,albuquea@bu.edu,6176518305
+2,1,2025,Active,Cathleen,C.,Cavell,Cathleen Cavell,,Yes,27 Monmouth Court,,Brookline,MA,02446,,cathleencavell@gmail.com,6177331492
+3,1,2025,Active,Susan,Helms,Daley,Susan Daley,,,17 Chatham Circle,,Brookline,MA,02446,,susanhelmsdaley@gmail.com,6172777848
+4,1,2025,Active,Bradford,,Kimball,Bradford Kimball,,New,4 Monmouth Street,,Brookline,MA,02446,,bkimballma@gmail.com,6173355124
+5,1,2025,Active,Sean,M.,Lynn-Jones,Sean Lynn-Jones,,Yes,53 Monmouth Street,,Brookline,MA,02446,,Sean_Lynn-Jones@alumni.harvard.edu,6177386228
+6,1,2026,Active,Rui,,Albuquerque,Rui Albuquerque,,,24 Euston Street,2,Brookline,MA,02446,,rui.albuquerque@bc.edu,5852245511
+7,1,2026,Active,Sarah,,Ericsson,Sarah Ericsson,,Yes,79 Carlton Street,,Brookline,MA,02446,,sarah_harpist@yahoo.com,6177313130
+8,1,2026,Active,Amy,R.,g;,Amy Evenson,,,71 Carlton Street,,Brookline,MA,02446,,amyrevenson@gmail.com,6172839103
+9,1,2026,Active,Carol,B.,Hillman,Carol Hillman,,Yes,287 Kent Street,2,Brookline,MA,02446,,chillman96@gmail.com,6175660807
+10,1,2026,Active,Bettina,,Neuefeind,Bettina Neuefeind,,Yes,20 Amory Street,,Brookline,MA,02446,,bettina@pobox.com,6179354117
+11,1,2027,Active,Neil,R.,Gordon,Neil Gordon,,Yes,87 Ivy Street,,Brookline,MA,02446,Constable/Advisory Committee,neil@nrgordon.com,5082651362
+12,1,2027,Active,Katherine,A,Ingraham,Katherine Ingraham,,Yes,64 Amory Street,,Brookline,MA,02446,,kath.ingraham@gmail.com,6174477616
+13,1,2027,Active,Louise,,King,Louise King,,New,69 Monmouth Street,,Brookline,MA,02446,,lou.perk.king@gmail.com,2145439671
+14,1,2027,Active,Sarah,,Moghtader,Sarah Moghtader,,New,16 Chilton Street,,Brookline,MA,02446,School Committee,moghtader4brookline@gmail.com,6172337769
+15,1,2027,Active,Robert,,Schoen,Robert Schoen,,New,10 Beech Rd,,Brookline,MA,02446,,robschoen.robschoen@gmail.com,6174478496
+16,1,Expired,Inactive,,,Brown,Deborah Brown,,,,,,,,,deborah.brown1@comcast.net,
+17,1,Expired,Inactive,,,Ercolino,Elijah Ercolino,,,,,,,,,elijah@ercolino.us,
+18,1,Expired,Inactive,,,Herman,H. Herman,,,,,,,,,,
+19,1,Expired,Inactive,,,Ishak,Anthony Ishak,,,,,,,,,,
+20,1,Expired,Inactive,,,Metral,Alexandra Metral,,,,,,,,,alex@alexmetral.com,
+21,1,Expired,Inactive,,,Schram,Robert Schram,,,,,,,,,bob.schram@aon.com,
+22,1,Expired,Inactive,,,Silbaugh,Kate Silbaugh,,,,,,,,,kbsilbaugh@gmail.com,
+23,1,Expired,Inactive,,,Terrell,Charles Terrell,,,,,,,,,charles-terrell@comcast.net,
+24,2,2025,Active,Brenda,,Hochberg,Brenda Hochberg,,Yes,50 Crowninshield Rd,,Brookline,MA,02446,,bhochberg@att.net,6177350083
+25,2,2025,Active,Chanda,,Jones,Chanda Jones,,,71 Egmont St,4,Brookline,MA,02446,,j.is.chanda2@gmail.com,6176717161
+26,2,2025,Active,Pamela,L.,Roberts,Pamela Roberts,,Yes,47 Crowninshield Rd,,Brookline,MA,02446,,pamelala58@yahoo.com,6179090170
+27,2,2025,Active,Barbara,C.,Scotto,Barbara Scotto,,Yes,26 Crowninshield Road,,Brookline,MA,02446,,bscotto@gmail.com,6175660041
+28,2,2025,Active,Maura,,Toomey,Maura Toomey,,,102 Crowninshield Road,,Brookline,MA,02446,,mauratoomey617@gmail.com,6178691191
+29,2,2026,Active,Robert,M.,Miller,Robert Miller,,,19 Copley St,,Brookline,MA,02446,,bobtmm2@gmail.com,6178288100
+30,2,2026,Active,Markus,L.,Penzel,Markus Penzel,,Yes,182 Pleasant St,,Brookline,MA,02446,Advisory Committee,markpenzel@yahoo.com,6175491747
+31,2,2026,Active,Ariel,,Soiffer,Ariel Soiffer,,Yes,221 Freeman St,,Brookline,MA,02446,,asoiffer@gmail.com,6175961776
+32,2,2026,Active,Carlos,Mario,Tamayo,Carlos Tamayo,,,341 Saint Paul St,6,Brookline,MA,02446,,tocarlos777@gmail.com,6179011574
+33,2,2026,Active,David,,Trevvett,David Trevvett,,Yes,177 Babcock St,1,Brookline,MA,02446,,david.trevvett@gmail.com,7736360309
+34,2,2027,Active,James,F.,Franco,James Franco,,Yes,126 Amory Street,3,Brookline,MA,02446,,jamesfranco02446@gmail.com,6177343022
+35,2,2027,Active,Carol,W.,Gladstone,Carol Gladstone,,Yes,28 Copley St,,Brookline,MA,02446,,carol@glcdevelopment.com,6172649169
+36,2,2027,Active,Kimberley,,Richardson,Kimberley Richardson,,,347 Saint Paul Street,3,Brookline,MA,02446,Housing Authority,kimstwins2002@msn.com,6172765625
+37,2,2027,Active,Katha,R.,Seidman,Katha Seidman,,New,18 Elba Street,,Brookline,MA,02446,,katha@mindspring.com,6175107814
+38,2,2027,Active,Richard,,Snyder,Richard Snyder,,,135 Pleasant Street ,311,Brookline,MA,02446,,brookline135@gmail.com,6177338925
+39,2,Expired,Inactive,,,Dickinson,Paul Dickinson,,,,,,,,,,
+40,2,Expired,Inactive,,,Englund,J. Englund,,,,,,,,,,
+41,2,Expired,Inactive,,,Hellerstein,Ben Hellerstein,,,,,,,,,bhellerstein@gmail.com,
+42,2,Expired,Inactive,,,Kidd,J. Kidd,,,,,,,,,,
+43,2,Expired,Inactive,,,Liss,Lisa Liss,,,,,,,,,junk13@live.com,
+44,2,Expired,Inactive,,,O'Brien,Barbara O'Brien,,,,,,,,,,
+45,2,Expired,Inactive,,,Piercy,Jane Piercy,,,,,,,,,jpiercy@mac.com,
+46,2,Expired,Inactive,,,Poverman,Kate Poverman,,,,,,,,,kpoverman@comcast.net,
+47,2,Expired,Inactive,,,Rubinow,Stuart Rubinow,,,,,,,,,,
+48,2,Expired,Inactive,,,Spiegel,Diane Spiegel,,,,,,,,,dianaspiegel@gmail.com,
+49,2,Expired,Inactive,,,Spiegel,Stanley Spiegel,,,,,,,,,sdspiegel@att.net,
+50,2,Expired,Inactive,,,Studdard,C. Studdard,,,,,,,,,,
+51,2,Expired,Inactive,,,Wimberly,Davis Wimberly,,,,,,,,,davis.wimberly@gmail.com,
+52,03,2025,Active,Kathryn,M.,Becker,Kathryn Becker,,,83 Stearns Road,1,Brookline,MA,02446,,kate_becker@yahoo.com,3039417434
+53,03,2025,Active,Harry,K.,Bohrs,Harry Bohrs,,Yes,97 Toxteth Street,,Brookline,MA,02446,Advisory Committee,harry.bohrs@bmc.org,6175663556
+54,03,2025,Active,Dennis,L.,Doughty,Dennis Doughty,,,57 Perry Street,,Brookline,MA,02446,Advisory Committee,doughty@alum.mit.edu,6177397266
+55,03,2025,Active,Frank,R.,Steinfield,Frank Steinfield,,,160 Aspinwall Avenue,2,Brookline,MA,02446,,fsteinfield@mindspring.com,6175048758
+56,03,2025,Active,Nate,,Tucker,Nate Tucker,,Yes,21 Bowker Street,,Brookline,MA,02446,,n8tucker@hotmail.com,6175014544
+57,03,2026,Active,Jeffrey,R.,Benson,Jeffrey Benson,,,101 Stearns Road,1,Brookline,MA,02446,,jeffreybenson61@hotmail.com,6178339111
+58,03,2026,Active,Murray,,Dewart,Murray Dewart,,Yes,90 Toxteth Street,,Brookline,MA,02446,,murraydewart@gmail.com,6177344224
+59,03,2026,Active,,,Frumkin,Peter Frumkin,,,,,,,,,Frumkintmm@gmail.com,
+60,03,2026,Active,Donald,G.,Leka,Donald Leka,,New,140 Sewall Avenue,,Brookline,MA,02446,,donleka@gmail.com,6177921936
+61,03,2026,Active,Joanne,,Liautaud,Joanne Liautaud,,Yes,160 Sewall Avenue,,Brookline,MA,02446,,joanneliautaud@hotmail.com,3129610388
+62,03,2026,Active,Anne,L.,Turner,Anne Turner,,Yes,97 Toxteth Street,,Brookline,MA,02446,,anne.turner@rcn.com,6175663556
+63,03,2027,Active,Mary,D.,Dewart,Mary Dewart,,Yes,90 Toxteth Street,,Brookline,MA,02446,,marydewart@verizon.net,6177344224
+64,03,2027,Active,Gina,Marie,Hahn,Gina Hahn,,Yes,201 Longwood Avenue,,Brookline,MA,02446,,gina@nontantum.com,6175101988
+65,03,2027,Active,Kathleen,M.,Scanlon,Kathleen Scanlon,,,71 Francis Street,,Brookline,MA,02446,,kathleenmscanlon@gmail.com,6177340446
+66,03,2027,Active,Rebecca,E.,Stone,Rebecca Stone,,,71 Toxteth Street,,Brookline,MA,02446,,stonewalt@mac.com,6172789220
+67,03,Expired,Inactive,,,Gilman,Jane Gilman,,,,,,,,,jcgilman3@gmail.com,
+68,03,Expired,Inactive,,,Jones,Gary Jones,,,,,,,,,,
+69,03,Expired,Inactive,,,Levene,Meggan Levene,,,,,,,,,Meggan.Levene@Gmail.Com,
+70,3,Expired,Inactive,,,Robinson,Felina Robinson,,,,,,,,,,
+71,03,Expired,Inactive,,,Wiecek,Michael Wiecek,,,,,,,,,bklnmw@spamex.com,
+72,03,Expired,Inactive,,,Zoorob,Michael Zoorob,,,,,,,,,,
+73,04,2025,Active,Paul,,Hsieh,Paul Hsieh,,Yes,115 Walnut St,,Brookline,MA,02445,,paul.f.hsieh@gmail.com,8574882368
+74,04,2025,Active,Wendy,S.,Machmuller,Wendy Machmuller,,,110 Walnut Street,1,Brookline,MA,02445,,wendy.machmuller@gmail.com,6179132951
+75,04,2025,Active,Donelle,S.,"O'Neal, Sr.","Donelle O'Neal, Sr.",,Yes,68 Village Way,,Brookline,MA,02445,Advisory Committee,donelle617@gmail.com,8572433602
+76,04,2025,Active,Vena,,Priestly,Vena Priestly,,,8 Juniper Street,31,Brookline,MA,02445,,priestlyvena@gmail.com,6179356158
+77,04,2025,Active,Marianna,,Yang,Marianna Yang,,,150 Walnut St,2,Brookline,MA,02445,,mariannayang@gmail.com,7142721736
+78,04,2026,Active,,,Aziz,Arslan Aziz,,,,,,,,,,
+79,04,2026,Active,Elizabeth,,Childs,Elizabeth Childs,,Yes,157 Walnut St,,Brookline,MA,02445,,elizabethchilds@me.com,6177344026
+80,04,2026,Active,Christopher,,Dempsey,Christopher Dempsey,,,257 Walnut Street,1,Brookline,MA,02445,,christopher.dempsey@gmail.com,6177978788
+81,04,2026,Active,Matthew,,Hyatt,Matthew Hyatt,,Yes,87 Walnut St,,Brookline,MA,02445,,mhyatt@bergmeyer.com,6179229029
+82,04,2026,Active,Liz,,Linder,Liz Linder,,Yes,31 Station St,5,Brookline,MA,02445,,liz@lizlinder.com,6178186537
+83,04,2026,Active,Awet,,Teame,Awet Teame,,Yes,263 Walnut St,2,Brookline,MA,02445,,awetteame@gmail.com,3104820442
+84,04,2027,Active,Lisa,,Barstow,Lisa Barstow,,Yes,231 Washington Street,2,Brookline,MA,02445,,lisajbarstow2@gmail.com,6174801719
+85,04,2027,Active,Alan,,Christ,Alan Christ,,Yes,117 Kent Street,2,Brookline,MA,02445,,alanrchrist@yahoo.com,6178345748
+86,04,2027,Active,Robert,S.,Daves,Robert Daves,,Yes,9 Upland Road,,Brookline,MA,02445,,robdaves@rcn.com,6172851113
+87,04,2027,Active,Lisamarie,,Sears,Lisamarie Sears,,New,21 Kent Street,1,Brookline,MA,02445,,sears.l@gmail.com,6177556610
+88,04,Expired,Inactive,Karen,,Ambrose,Karen Ambrose,,Yes,93 Walnut Street,2,Brookline,MA,02445,,karenambrose90@gmail.com ,6174498514
+89,4,Expired,Inactive,,,Ambrose,Thomas Ambrose,,,,,,,,,,
+90,04,Expired,Inactive,,,Axelrod,Sarah Axelrod,,,,,,,,,staxelrod@gmail.com,
+91,04,Expired,Inactive,,,Boehs,Sarah Boehs,,,,,,,,,sarahboehs@gmail.com,
+92,4,Expired,Inactive,,,Clark,Kalymba Clark,,,,,,,,,,
+93,04,Expired,Inactive,,,Farlow,Martha Farlow,,,,,,,,,marty.farlow@gmail.com,
+94,04,Expired,Inactive,,,Gerdts,Nadine Gerdts,,,,,,,,,gerdts.n@gmail.com,
+95,04,Expired,Inactive,,,MacMillan,Wendy MacMillan,,,,,,,,,wmacmillan1117@gmail.com,
+96,04,Expired,Inactive,,,Mulhane,John Mulhane,,,,,,,,,jitneyt@verizon.net,
+97,04,Expired,Inactive,,,Nobrega,Mariah Nobrega,,,,,,,,,mariah.nobrega@gmail.com,
+98,4,Expired,Inactive,,,O'Neal,Shawn O'Neal,,,,,,,,,,
+99,04,Expired,Inactive,,,Raitt,Jennifer Raitt,,,,,,,,,,
+100,04,Expired,Inactive,,,Siegel,M. Siegel,,,,,,,,,,
+101,04,Expired,Inactive,,,Volk,Robert Volk,,,,,,,,,rv3360@gmail.com,
+102,05,2025,Active,Wendy,Sheridan,Ames,Wendy Ames,,Yes,356 Walnut Street,,Brookline,MA,02445,,wsheridanames@gmail.com,6177806605
+103,05,2025,Active,Michael,A.,Glover,Michael Glover,,,4 Franklin Court,,Brookline,MA,02445,,michael.a.glover@gmail.com,8574455580
+104,05,2025,Active,Perry,,Grossman,Perry Grossman,,,42 Jamaica Road,2,Brookline,MA,02445,Advisory Committee,perrygrossman2008@gmail.com,6173839061
+105,05,2025,Active,William,E.,Reyelt,William Reyelt,,,121 Chestnut Street,,Brookline,MA,02445,,william.reyelt@gmail.com,6176997872
+106,05,2026,Active,Bonnie,M.,Bastien,Bonnie Bastien,,,32 Oakland Road,,Brookline,MA,02445,,bonniebastien@gmail.com,6173191615
+107,05,2026,Active,Anthony,Evans,Flint,Anthony Flint,,Yes,254 Walnut Street,,Brookline,MA,02445,,anthony.flint@gmail.com,6179301044
+108,05,2026,Active,Wendy,,Friedman,Wendy Friedman,,,322 Walnut Street,,Brookline,MA,02445,,wafriedman@gmail.com,7185525074
+109,05,2026,Active,Carlos,R.,Rios,Carlos Rios,,Yes,218 High St,4,Brookline,MA,02445,,carlosrios4174@gmail.com,8572463574
+110,05,2026,Active,Wendy,,Stahl,Wendy Stahl,,,25 Edgehill Rd,,Brookline,MA,02445,,wendystahlmd@gmail.com,5102820682
+111,05,2027,Active,Kevin,Allen,England,Kevin England,,,21 Milton Road,,Brookline,MA,02445,,kevinaengland@gmail.com,6176506815
+112,05,2027,Active,Omar,S.,Mabrouk,Omar Mabrouk,,,10 Rice Street,,Brookline,MA,02445,,omarmabrouk@hotmail.com,2167046488
+113,05,2027,Active,Hugh,,Mattison,Hugh Mattison,,,209 Pond Avenue,,Brookline,MA,02445,,hmattison@aol.com,6172326083
+114,05,2027,Active,Beth,,Miller,Beth Miller,,New,122 Chestnut St,,Brookline,MA,02445,,beth.miller.brookline122@gmail.com,6179664087
+115,05,2027,Active,Phyllis,R.,O'Leary,Phyllis O'Leary,,Yes,16 Jamaica Road,2,Brookline,MA,02445,,orp3@comcast.net,6177343967
+116,5,Expired,Inactive,,,Drake,Cynthia Drake,,,,,,,,,cdrake999@gmail.com,
+117,5,Expired,Inactive,,,Fischer Fox,Olivia Fischer Fox,,,,,,,,,ofischerfox@gmail.com,
+118,5,Expired,Inactive,,,Lacy,Keith Lacy,,,,,,,,,,
+119,5,Expired,Inactive,,,Lindenboim,Amie Lindenboim,,,,,,,,,amie.lindenboim@gmail.com,
+120,5,Expired,Inactive,,,Meiklejohn,Randolph Meiklejohn,,,,,,,,,rmeiklejohn@verizon.net,
+121,05,Expired,Inactive,,,Michaels,Faith Michaels,,,,,,,,,chaton@comcast.net,
+122,05,Expired,Inactive,,,Olins,Andrew Olins,,,,,,,,,a_olins@msn.com,
+123,05,Expired,Inactive,,,Stampfer,Claire Stampfer,,,,,,,,,claire.stampfer@gmail.com,
+124,5,Expired,Inactive,,,Wishinsky,Susan Wishinsky,,,,,,,,,,
+125,05,Expired,Inactive,,,Wurster,E. Wurster,,,,,,,,,,
+126,06,2025,Active,John,,Bassett,John Bassett,,Yes,26 Searle Avenue,1,Brookline,MA,02445,,baswolfe@aol.com,6177391160
+127,06,2025,Active,Daniel,,Fishman,Daniel Fishman,,New,138 Davis Ave,,Brookline,MA,02445,Caucused In 05.28.24,daniel.fishman817@gmail.com,6176310433
+128,06,2025,Active,Daniel,G.,Saltzman,Daniel Saltzman,,,62 White Place,,Brookline,MA,02445,,brookline@dgnetworks.com,6174370147
+129,06,2025,Active,Kim,,Smith,Kim Smith,,Yes,22 Brington Road,,Brookline,MA,02445,,ksmith1450@aol.com,6172771606
+130,06,2025,Active,Virginia,A.,Smith,Virginia Smith,,Yes,12 Linden Street,,Brookline,MA,02445,,vahsmith@aol.com,6172772384
+131,06,2026,Active,Catherine,C.,Anderson,Catherine Anderson,,,106 Davis Ave,,Brookline,MA,02445,,cander3000@gmail.com,6176949792
+132,06,2026,Active,Patricia,Ann,Correa,Patricia Correa,,Yes,32 Davis Ave,,Brookline,MA,02445,,pattycorr@gmail.com,6173479790
+133,06,2026,Active,Bitsy,,Perlman,Bitsy Perlman,,,40 White Pl ,3,Brookline,MA,02445,,bitsy.brookline@gmail.com,6173834676
+134,06,2026,Active,Clinton,Q.,Richmond,Clinton Richmond,,Yes,3 Greenough Circle,,Brookline,MA,02445,,crbrookline@aol.com,6177389434
+135,06,2026,Active,Marissa,F.,Vogt,Marissa Vogt,,,12 Tabor Place,,Brookline,MA,02445,Trustee of the Public Library,vogt4brookline@gmail.com,6176861782
+136,06,2027,Active,Arthur,Wellington,"Conquest, III","Arthur Conquest, III",,Yes,115 Tappan Street,,Brookline,MA,02445,,awciii@yahoo.com,6172773943
+137,06,2027,Active,Scott,L.,Englander,Scott Englander,,,26 Elm Street,,Brookline,MA,02445,,senglander1@gmail.com,6177948232
+138,06,2027,Active,Ruvi,,Kitov,Ruvi Kitov,,New,18 Elm Street,,Brookline,MA,02445,,rkcolvis@gmail.com,8572258499
+139,06,2027,Active,David,,Porter,David Porter,,Yes,21 Clark Rd,,Brookline,MA,02445,,daveforbrookline@gmail.com,6176768383
+140,06,2027,Active,Jeffrey,David,Rudolph,Jeffrey Rudolph,,,29 Greenough Street,,Brookline,MA,02445,,jeff.rudolph@gmail.com,6173837774
+141,6,Expired,Inactive,,,Amigone,Jennifer Amigone,,,,,,,,,,
+142,06,Expired,Inactive,,,Bergstein,B. Bergstein,,,,,,,,,,
+143,6,Expired,Inactive,,,Coltof,Gideon Coltof,,,,,,,,,,
+144,06,Expired,Inactive,,,Doldron,Malcolm Doldron,,,,,,,,,Mcdoldron@gmail.com,
+145,06,Expired,Inactive,,,Fuller,Bryan Fuller,,,,,,,,,,
+146,06,Expired,Inactive,,,Hochleutner,Brian Hochleutner,,,,,,,,,,
+147,06,Expired,Inactive,,,Levine,Samuel Levine,,,,,,,,,team.levine@gmail.com,
+148,06,Expired,Inactive,,,Linos,Natalia Linos,,,,,,,,,,
+149,6,Expired,Inactive,,,Otero,Ana Otero,,,,,,,,,,
+150,06,Expired,Inactive,,,Sneider,Ruthann Sneider,,,,,,,,,rsneider@hotmail.com,
+151,06,Expired,Inactive,,,Tracker,Anne Trecker,,,,,,,,,annetrecker@gmail.com,
+152,6,Expired,Inactive,,,Triestman,Ethan Triestman,,,,,,,,,,
+153,07,2025,Active,Susan,,Cohen,Susan Cohen,,Yes,23 Littell Rd,,Brookline,MA,02446,,susan.f.cohen5@gmail.com,6177347078
+154,07,2025,Active,Susan,,Granoff,Susan Granoff,,Yes,52 Vernon Street,1,Brookline,MA,02446,Advisory Committee,susangranoff@msn.com,6177310822
+155,07,2025,Active,Colin,S.,Stokes,Colin Stokes,,,9 Auburn Pl,,Brookline,MA,02446,,stokescolin@hotmail.com,6179976074
+156,07,2025,Active,Chi Chi,,Wu,Chi Chi Wu,,,14 Marion Terrace,,Brookline,MA,02446,,chichiwutmm@gmail.com,6173592916
+157,07,2025,Active,Amanda,,Zimmerman,Amanda Zimmerman,,,411 Washington Street,6,Brookline,MA,02446,,alzimmerman@gmail.com,4045806957
+158,07,2026,Active,John,P.,Hebert,John Hebert,,Yes,21 Auburn St,,Brookline,MA,02446,,John@Hebertcomms.com,6172321161
+159,07,2026,Active,Mark,E.,Levy,Mark Levy,,,61 Park Street,10J,Brookline,MA,02446,,marklevy@theworld.com,6177314176
+160,07,2026,Active,Patricia,,Maher,Patricia Maher,,Yes,413 Washington St,2,Brookline,MA,02446,,patricialmaher@gmail.com,6178351055
+161,07,2026,Active,Amy,Isikoff,Newell,Amy Newell,,Yes,15 Alton Pl,3,Brookline,MA,02446,,amy.newell@gmail.com,6177130675
+162,07,2026,Active,Jessica,W.,Stokes,Jessica Stokes,,,9 Auburn Pl,,Brookline,MA,02446,,jessicastokes14@gmail.com,6175436641
+163,07,2027,Active,David,Gordon,Eber,David Eber,,Yes,7 Littell Road,,Brookline,MA,02446,,dgeber64@gmail.com,6174802825
+164,07,2027,Active,Roberta,M.,Falke,Roberta Falke,,New,15 Alton Pl,2,Brookline,MA,02446,,rmfalke@gmail.com,(617) 962-6411
+165,07,2027,Active,Ernest,A.,Frey,Ernest Frey,,Yes,423 Washington Street,3,Brookline,MA,02446,,ernestafrey@comcast.net,6177343704
+166,07,2027,Active,Kelly,A.,Hardebeck,Kelly Hardebeck,,,18 Littell Road,,Brookline,MA,02446,Advisory Committee,khardebeck@gmail.com,6179017977
+167,07,2027,Active,Jonathan,J.,Margolis,Jonathan Margolis,,,49 Harvard Avenue,4,Brookline,MA,02446,Trustee of the Public Library,jjmargolis@yahoo.com,6177385369
+168,07,Expired,Inactive,,,Black,Ryan Black,,,,,,,,,,
+169,07,Expired,Inactive,,,Duclos,Keith Duclos,,,,,,,,,kduclos1424@gmail.com,
+170,07,Expired,Inactive,,,Electris,Christi Electris,,,,,,,,,christi.electris@gmail.com,
+171,07,Expired,Inactive,,,Ellis,Susan Ellis,,,,,,,,,susanpotterellis@yahoo.com,
+172,07,Expired,Inactive,,,Gray,Mark Gray,,,,,,,,,magray99@gmail.com,
+173,7,Expired,Inactive,,,Grossman,Simon Grossman,,,,,,,,,,
+174,07,Expired,Inactive,,,Jarrell,Lara Jarrell,,,,,,,,,Ljarrell02446@gmail.com,
+175,7,Expired,Inactive,,,Navarrete,Jerry Navarrete,,,,,,,,,,
+176,7,Expired,Inactive,,,Newell,Max Newell,,,,,,,,,,
+177,07,Expired,Inactive,,,Provost,Stacey Provost,,,,,,,,,szelbow@gmail.com,
+178,07,Expired,Inactive,,,Shon-Baker,Rita Shon-Baker,,,,,,,,,shonbar1@yahoo.com,
+179,07,Expired,Inactive,,,Slayton,James Slayton,,,,,,,,,jslaytonmd@aol.com,
+180,07,Expired,Inactive,,,Wapinski,Ilan Wapinski,,,,,,,,,iwapinski@gmail.com,
+181,08,2025,Active,Tracie,Eliot,Burns,Tracie Burns,,,100 Beals Street,1,Brookline,MA,02446,,tracie.burns@gmail.com,6178793399
+182,08,2025,Active,Anita,L.,Johnson,Anita Johnson,,Yes,41 Osborne Road,,Brookline,MA,02446,,ajohnson02210@yahoo.com,6177340711
+183,08,2025,Active,Arden,,Reamer,Arden Reamer,,,72 Stedman Street,,Brookline,MA,02446,,arden0805@hotmail.com,6178345785
+184,08,2025,Active,Michael,W.,Toffel,Michael Toffel,,,25 Abbottsford Road,,Brookline,MA,02446,,mtoffel@hbs.edu,6179999318
+185,08,2025,Active,Donald,C.,Weitzman,Donald Weitzman,,,104 Babcock Street,4,Brookline,MA,02446,,greendcw@gmail.com,6177387864
+186,08,2026,Active,John,,Harris,John Harris,,Yes,41 Osborne Road,,Brookline,MA,02446,,citizenjohn02446@yahoo.com,6177340711
+187,08,2026,Active,Nancy,,Heller,Nancy Heller,,Yes,40 Abbottsford Rd,,Brookline,MA,02446,,nancyhellerbrookline@gmail.com,6172776108
+188,08,2026,Active,Alexander,,Lebovitz,Alexander Lebovitz,,,3 Bradford Terrace,,Brookline,MA,02446,,alec.lebovitz@gmail.com,4017936279
+189,08,2026,Active,Francine,B.,Perler,Francine Perler,,Yes,74A Fuller St,,Brookline,MA,02446,,Fran.Pct8@gmail.com,6177389228
+190,08,2026,Active,Eric,C.,Stone,Eric Stone,,,60 Beals St,,Brookline,MA,02446,,ericstone@me.com,3472679864
+191,08,2027,Active,Nels,Richard,Carlson,Nels Carlson,,New,147 Fuller Street,,Brookline,MA,02446,,NelsCarlsonP8@gmail.com,7812277811
+192,08,2027,Active,William,W.,Heinemann,William Heinemann,,New,18 Gibbs Street,,Brookline,MA,02446,,billh02446@gmail.com,6174538987
+193,08,2027,Active,Charles,,Homer,Charles Homer,,,76 Green Street,1,Brookline,MA,02446,,charlie.homer@gmail.com,6177970885
+194,08,2027,Active,Daria,,Mark,Daria Mark,,New,14 Gibbs Street,,Brookline,MA,02446,,daria.mark.tmm@gmail.com,6176512610
+195,08,2027,Active,David,Edward,Tytell,David Tytell,,Yes,8 Hamilton Road,,Brookline,MA,02446,,dtytell@gmail.com,6175667705
+196,08,Expired,Inactive,,,Cox,Abigail Cox,,,,,,,,,,
+197,08,Expired,Inactive,,,Goodwin,Carolyn Goodwin,,,,,,,,,,
+198,08,Expired,Inactive,,,Greenwald,Anne Greenwald,,,,,,,,,agreenwald814@gmail.com,
+199,8,Expired,Inactive,,,Kovach,Christina Kovach,,,,,,,,,,
+200,08,Expired,Inactive,,,Loechler,Edward loechler,,,,,,,,,loechler@bu.edu,
+201,08,Expired,Inactive,,,Margolis,Hadassah Margolis,,,,,,,,,hadassah.margolis@gmail.com,
+202,8,Expired,Inactive,,,Wang,Aone Wang,,,,,,,,,,
+203,09,2025,Active,Damon,Erik,Graff,Damon Graff,,,46 Williams Street,,Brookline,MA,02446,,dgraff@mindspring.com,6178037033
+204,09,2025,Active,Paul,E.,Harris,Paul Harris,,,111B Centre Street,,Brookline,MA,02446,,paulharrisbrookline@gmail.com,6172770167
+205,09,2025,Active,Robert,D.,Lepson,Robert Lepson,,Yes,36 Thorndike Street,,Brookline,MA,02446,,blepson36@gmail.com,6173081009
+206,09,2025,Active,Harold,,Simansky,Harold Simansky,,Yes,99 Winchester Street,1,Brookline,MA,02446,,hsimansky@gmail.com,6174699018
+207,09,2025,Active,Robert,J.,Weintraub,Robert Weintraub,,,112 Columbia Street,2,Brookline,MA,02446,,rjtraub@bu.edu,6177997481
+208,09,2026,Active,Lee,L.,Biernbaum,Lee Biernbaum,,,7 Verndale Street,3,Brookline,MA,02446,,lee@acrossb.com,6178389724
+209,09,2026,Active,Marion,,Freedman-Gurspan,Marion Freedman-Gurspan,,Yes,11 Wellman St,3,Brookline,MA,02446,,freedgur@aol.com,6177345468
+210,09,2026,Active,Susan,K.,Howards,Susan Howards,,,19 Winchester Street,202,Brookline,MA,02446,,suehow@aol.com,6172832948
+211,09,2026,Active,Martin,R.,Rosenthal,Martin Rosenthal,,Yes,62 Columbia Street,,Brookline,MA,02446,,martyros@world.std.com,6177386621
+212,09,2026,Active,Judith,A.,Vanderkay,Judith Vanderkay,,Yes,16 Columbia Street,,Brookline,MA,02446,Trustee of the Public Library,jvanderkay@gmail.com,6177310013
+213,09,2027,Active,Joseph,P.,Katz,Joseph Katz,,New,14 Wellman Street,,Brookline,MA,02446,,joseph.p.katz@gmail.com,6177350229
+214,09,2027,Active,Sarah ,B,Kitterman,Sarah  Kitterman,,,51 Kenwood Street,,Brookline,MA,02446,,sbkitterman@gmail.com,6173885795
+215,09,2027,Active,Elizabeth,C.,Loula,Elizabeth Loula,,,43 Columbia Street,,Brookline,MA,02446,,ecloula@gmail.com,6177308120
+216,09,2027,Active,Gary,Adam,Shiffman,Gary Shiffman,,New,81 Verndale Street,,Brookline,MA,02446,,garyadamshiffman@gmail.com,6177927878
+217,09,2027,Active,Gerald,M,Tuckman,Gerald Tuckman,,Yes,98 Thorndike Street,,Brookline,MA,02446,,gtuckman@hotmail.com,6172325194
+218,09,Expired,Inactive,,,Bellis-Kates,E. Bellis-Kates,,,,,,,,,,
+219,9,Expired,Inactive,,,Eng,Ashley Eng,,,,,,,,,,
+220,09,Expired,Inactive,,,Jozwicki,Barr Jozwicki,,,,,,,,,barrjozwicki@gmail.com,
+221,09,Expired,Inactive,,,Jozwicki,Joyce Jozwicki,,,,,,,,,joycejozwicki@gmail.com,
+222,09,Expired,Inactive,,,Katz,Pamela Katz,,,,,,,,,pamstevekatz@gmail.com,
+223,09,Expired,Inactive,,,Marton,Thomas Marton,,,,,,,,,,
+224,9,Expired,Inactive,,,Roberts,Kevin Roberts,,,,,,,,,kevinroberts.MA@protonmail.com,
+225,09,Expired,Inactive,,,Rosenstein,Harriet Rosenstein,,,,,,,,,,
+226,09,Expired,Inactive,,,Swartz,Charles Swartz,,,,,,,,,chswartz@rcn.com,
+227,09,Expired,Inactive,,,Tyndal,David Tyndal,,,,,,,,,,
+228,09,Expired,Inactive,,,White,George Abbott White,,,,,,,,,whizzer65@gmail.com,
+229,10,2025,Active,Rachel,,Barenbaum,Rachel Barenbaum,,,46 Griggs Rd,,Brookline,MA,02446,,rachelb26@gmail.com,6464254983
+230,10,2025,Active,John,L.,Bowman,John Bowman,,,80 Park Street,62,Brookline,MA,02446,,johnlbowman1955@gmail.com,6173129588
+231,10,2025,Active,Roslyn,L.,Feldberg,Roslyn Feldberg,,Yes,1501 Beacon Street,806,Brookline,MA,02446,,rozwrites2016@gmail.com,6174678197
+232,10,2025,Active,Jessica,M.,Lang,Jessica Lang,,New,67 Griggs Rd,,Brookline,MA,02446,,jessica.lang@mail.harvard.edu,6178214296
+233,10,2025,Active,Naomi,,Sweitzer,Naomi Sweitzer,,Yes,14 Griggs Terrace,,Brookline,MA,02446,,justicedoit@yahoo.com,6177978329
+234,10,2026,Active,Suzette,,Abbott,Suzette Abbott,,,63 Winthrop Road,,Brookline,MA,02445,,suzetteabbott@gmail.com,6178358639
+235,10,2026,Active,Kimberly,Elizabeth ,Loscalzo,Kimberly Loscalzo,,,1601 Beacon Street,203,Brookline,MA,02446,,kimmah314@gmail.com,2075228657
+236,10,2026,Active,Ariel,C.,Maddocks,Ariel Maddocks,,,64 Griggs Road,,Brookline,MA,02446,,ariel.maddocks@gmail.com,6173834024
+237,10,2026,Active,Nicole,E.,Stephens,Nicole Stephens,,,30 Gardner Rd,2G,Brookline,MA,02445,,n.stephens14@gmail.com,6174128380
+238,10,2026,Active,Karin,L.,Weaver,Karin Weaver,,,67 Winthrop Rd,,Brookline,MA,02445,,klweaver2013@gmail.com,6177109954
+239,10,2027,Active,C.,Scott,Ananian,Scott Ananian,,Yes,103 Griggs Road,,Brookline,MA,02446,,brookline@cscott.net,6172331238
+240,10,2027,Active,Katherine,,Florio,Katherine Florio,,Yes,30 Gardner Road, 3I,Brookline,MA,02445,Advisory Committee,kcfloriobrookline@gmail.com,6177518056
+241,10,2027,Active,Jeremy,Mark,Isikoff,Jeremy Isikoff,,New,569 Washington Street,,Brookline,MA,02446,,jisikoff@gmail.com,6177218819
+242,10,2027,Active,David,B,Klafter,David Klafter,,,63 Winthrop Road,2,Brookline,MA,02445,,dbklafter@gmail.com,6178356703
+243,10,2027,Active,Conor,,Sheehan,Conor Sheehan,,Yes,516 Washington St,,Brookline,MA,02446,,conorforbrookline@gmail.com,9782575776
+244,10,Expired,Inactive,,,Caro,Carol Caro,,,,,,,,,,
+245,10,Expired,Inactive,,,Caro,Frank Caro,,,,,,,,,frank.g.caro@gmail.com,
+246,10,Expired,Inactive,,,Dela Cruz,Prinz Jeremy Dela Cruz,,,,,,,,,,
+247,10,Expired,Inactive,,,Duffield,Cher Duffield,,,,,,,,,cher.duffield@gmail.com,
+248,10,Expired,Inactive,,,Gaehde,Lilly Gaehde,,,,,,,,,lgaehde@gmail.com,
+249,10,Expired,Inactive,,,Gray,Jesse Gray,,,,,,,,,jesse.gray@gmail.com,
+250,10,Expired,Inactive,,,Hatchett,Casey Hatchett,,,,,,,,,casey.hatchett@gmail.com,
+251,10,Expired,Inactive,,,Heytt,Eric Hyett,,,,,,,,,,
+252,10,Expired,Inactive,,,Knable,B. Knable,,,,,,,,,,
+253,10,Expired,Inactive,,,Liu,A. Liu,,,,,,,,,,
+254,10,Expired,Inactive,,,Livingston,F. Livingston,,,,,,,,,tedlivingston@comcast.net,
+255,10,Expired,Inactive,,,Maddocks,Christopher Maddocks,,,,,,,,,,
+256,10,Expired,Inactive,,,Morris,Jessica Morris,,,,,,,,,jessica.dawn.morris@gmail.com,
+257,10,Expired,Inactive,,,Scholnick,Theodore Scholnick,,,,,,,,,tedevergood@comcast.net,
+258,10,Expired,Inactive,,,Spingarn,Alexandra Spingarn,,,,,,,,,alexandraspin74@gmail.com,
+259,10,Expired,Inactive,,,Stone,Daniel Stone,,,,,,,,,dsdjstone@gmail.com,
+260,10,Expired,Inactive,,,Takinami,Emy Takinami,,,,,,,,,,
+261,11,2025,Active,Shira,H.,Fischer,Shira Fischer,,,76 Summit Avenue,,Brookline,MA,02446,,townmeeting@shirafischer.com,6177774844
+262,11,2025,Active,Shanna,,Giora-Gorfajn,Shanna Giora-Gorfajn,,,66 Winchester Street,101,Brookline,MA,02446,,s.giora@gmail.com,6177386131
+263,11,2025,Active,Zsuzsanna,,Kaldy,Zsuzsanna Kaldy,,,36 Summit Ave,3,Brookline,MA,02446,,zsuzsa.kaldy@gmail.com,7813664184
+264,11,2025,Active,David,M.,Pollak,David Pollak,,,112 Lancaster Terrace,,Brookline,MA,02446,Advisory Committee,dpollak@abacusarchitects.com,6179214418
+265,11,2025,Active,Lisa,F.,Shatz,Lisa Shatz,,,252 Summit Avenue,,Brookline,MA,02446,,lisafshatz@gmail.com,6176995224
+266,11,2026,Active,Jonathan,Joseph ,Golden,Jonathan Golden,,,1450 Beacon Street,301,Brookline,MA,02446,,jonathanjgolden@gmail.com,6178778269
+267,11,2026,Active,Martha,E.,Gray,Martha Gray,,,113 Summit Avenue,,Brookline,MA,02446,,mgray49@hotmail.com,6179534723
+268,11,2026,Active,John,Franklin,Hilliard,John Hilliard,,Yes,26 Summit Ave,APT 6,Brookline,MA,02446,,john@jfh.me,6075921189
+269,11,2026,Active,David,J.,Lowe,David Lowe,,,177 Mason Terrace,,Brookline,MA,02446,,davidlowe4tm@comcast.net,6172772505
+270,11,2026,Active,John,A.,Rumpler,John Rumpler,,,97 Mason Terr ,5,Brookline,MA,02446,,jrumpler43@gmail.com,6179978296
+271,11,2027,Active,Benjamin,Philip,Garfinkel,Benjamin Garfinkel,,New,118 Winchester Street,,Brookline,MA,02446,,bpgarfinkel@gmail.com,6172837907
+272,11,2027,Active,David,,Lescohier,David Lescohier,,Yes,50 Winchester St,103,Brookline,MA,02446,,david@lescohier.com,6173835935
+273,11,2027,Active,Kenneth,G.,Lewis,Kenneth Lewis,,,232 Summit Avenue,W103,Brookline,MA,02446,,kgl232@msn.com,6177388545
+274,11,2027,Active,Anne,,Weaver,Anne Weaver,,,87 Mason Terrace,2,Brookline,MA,02446,,alweaver2016@gmail.com,6175832348
+275,11,2027,Active,Leonard,N.,Wholey,Leonard Wholey,,,119 Lancaster Terrace,,Brookline,MA,02446,,lwholey@gmail.com,6172231157
+276,11,Expired,Inactive,,,Blouwolff,Joshua Blouwolff,,,,,,,,,,
+277,11,Expired,Inactive,,,Gertler,N. Gertler,,,,,,,,,,
+278,11,Expired,Inactive,,,Goldsmith,Jennifer Goldsmith,,,,,,,,,IJKLMAIL@YAHOO.COM,
+279,11,Expired,Inactive,,,Jones-Dasent,Bonny Jones-Dasent,,,,,,,,,boney.2015@gmail.com,
+280,11,Expired,Inactive,,,Krewinghaus,David Krewinghaus,,,,,,,,,dkrewinghaus@gmail.com,
+281,11,Expired,Inactive,,,Mautner,Rebecca Mautner,,,,,,,,,rebecca@rpmautner.com,
+282,11,Expired,Inactive,,,McClelland,Nicole McClelland,,,,,,,,,nicole.mcclelland@gmail.com,
+283,11,Expired,Inactive,,,Moran,M. Moran,,,,,,,,,,
+284,11,Expired,Inactive,,,Sheehan,Brian Sheehan,,,,,,,,,,
+285,12,2025,Active,Petra,Gospodnetic,Bignami,Petra Bignami,,Yes,146 Tappan Street,,Brookline,MA,02445,,petrabignami@gmail.com,6174709381
+286,12,2025,Active,Emily,,Dolbear,Emily Dolbear,,Yes,110 Addington Rd,B,Brookline,MA,02445,,emily.dolbear@gmail.com,6176201171
+287,12,2025,Active,Amy,,Hummel,Amy Hummel,,Yes,226 Clark Road,,Brookline,MA,02445,,amyhummel22@gmail.com,6177310549
+288,12,2025,Active,Steven,,Laduzinski,Steven Laduzinski,,,197 Gardner  Rd,,Brookline,MA,02445,,sladuzin@hotmail.com,9175790499
+289,12,2025,Active,Mark,,Lowenstein,Mark Lowenstein,,,197 Rawson Road,3,Brookline,MA,02445,,mlowenstein3@gmail.com,6179138900
+290,12,2026,Active,Jonathan,,Abbett,Jonathan Abbett,,,168 Gardner Rd,,Brookline,MA,02445,,JMA@Abbett.org,6173839562
+291,12,2026,Active,Stephanie,A.,Bruce,Stephanie Bruce,,,185 Rawson Road,3,Brookline,MA,02445,,stephaniexbruce@gmail.com,6177342025
+292,12,2026,Active,Michael,A.,Burstein,Michael Burstein,,Yes,50 Garrison Road,1,Brookline,MA,02445,Trustee of the Public Library,TMM.Burstein@mabfan.com,6177346460
+293,12,2026,Active,Mazal,,Jaret,Mazal Jaret,,Yes,182 Rawson Road,,Brookline,MA,02445,,forbrookline@gmail.com,6175447207
+294,12,2026,Active,,,Molloy,Margaret Molloy,,,,,,,,,,
+295,12,2027,Active,Nancy,Daly,Cavanaugh,Nancy Daly Cavanaugh,,Yes,161 Rawson Road,,Brookline,MA,02445,,daly.nan@gmail.com,6172320728
+296,12,2027,Active,Lee,,Cooke-Childs,Lee Cooke-Childs,,Yes,136 Rawson Road,,Brookline,MA,02445,,lee.cookechilds@gmail.com,6178512494
+297,12,2027,Active,Harry,K.,Friedman,Harry Friedman,,Yes,27 Claflin Road,,Brookline,MA,02445,Advisory Committee,spinmarty@yahoo.com,6172320122
+298,12,2027,Active,Jonathan,A.,Karon,Jonathan Karon,,Yes,124 Winthrop Road,2,Brookline,MA,02445,Assistant Moderator,jakaron@karonlaw.net,6174053200
+299,12,2027,Active,Eric,J.,McNulty,Eric McNulty,,New,20 Claflin Road,,Brookline,MA,02445,,ejmcnu@gmail.com,6173717254
+300,12,Expired,Inactive,,,Frey,David Frey,,,,,,,,,,
+301,12,Expired,Inactive,,,Greenfield,S. Greenfield,,,,,,,,,sgreenfield@cambridgeseven.com,
+302,12,Expired,Inactive,,,Kushner,Michael Kushner,,,,,,,,,,
+303,12,Expired,Inactive,,,Margolis,Harry Margolis,,,,,,,,,harry@margolis.com,
+304,12,Expired,Inactive,,,Meyers,Judy Meyers,,,,,,,,,judykm611@aol.com,
+305,12,Expired,Inactive,,,Milner-Barge,Jules Milner-Barge,,,,,,,,,jules@milner-brage.com,
+306,12,Expired,Inactive,,,Offner,Michael Offner,,,,,,,,,mikeoffner26@gmail.com,
+307,13,2025,Active,John,,Doggett,John Doggett,,,8 Penniman Road,,Brookline,MA,02445,Advisory Committee,john@jdoggett.net,6175665474
+308,13,2025,Active,Andrew,M.,Fischer,Andrew Fischer,,Yes,21 Bartlett Crescent,2,Brookline,MA,02446,,afischer@jasonandfischer.com,6172938304
+309,13,2025,Active,Mark,Nathan,Gerber,Mark Gerber,,New,405 Clinton Road,,Brookline,MA,02445,,mngerber@gmail.com,6177357444
+310,13,2025,Active,Francis,Charlton,Hoy,Francis Hoy,,Yes,295 Reservoir Road,,Chestnut Hill,MA,02467,,franhoy@comcast.net,6173063202
+311,13,2026,Active,Michael,Thomas,Best,Michael Best,,,37 Englewood Ave ,1,Brookline,MA,02445,,michael.best1@gmail.com,6172830278
+312,13,2026,Active,Laura,,Knott,Laura Knott,,Yes,126 Westbourne Terrace,2,Brookline,MA,02446,,laurawalksprecinct13@gmail.com,6173964817
+313,13,2026,Active,Werner,,Lohe,Werner Lohe,,,25 Salisbury Road,,Brookline,MA,02445,,werner.lohe@gmail.com,6177390892
+314,13,2026,Active,David,,Mendels,David Mendels,,,11 Evans Road,,Brookline,MA,02445,,dmendels66@gmail.com,6174139705
+315,13,2026,Active,Michael,,Rubenstein,Michael Rubenstein,,Yes,130 Willard Rd,,Brookline,MA,02445,,vote@michaelrubenstein.com,6177339407
+316,13,2026,Active,,,Segel,Jennifer Segel,,,,,,,,,,
+317,13,2027,Active,Jonathan,S.,Fine,Jonathan Fine,,Yes,57 Willow Crescent,,Brookline,MA,02445,,unionhill57@hotmail.com,6177310002
+318,13,2027,Active,John,W.,Freeman,John Freeman,,Yes,530 Clinton Road,,Chestnut Hill,MA,02467,,johnfreeman@rcn.com,6177318752
+319,13,2027,Active,Brian,,Ladd,Brian Ladd,,New,1856 Beacon Street,2A,Brookline,MA,02445,,brianladd7621@gmail.com,5188787024
+320,13,2027,Active,Thomas,George,Renkes,Thomas Renkes,,New,393 Clinton Road,,Brookline,MA,02445,,tomrenkes@gmail.com,7346492948
+321,13,2027,Active,Paul,A.,Saner,Paul Saner,,,462 Chestnut Hill Ave,,Brookline,MA,02445,,paulsaner@comcast.net,6178355382
+322,13,Expired,Inactive,,,Aschkensay,Miriam Aschkenasy,,,,,,,,,maschkemd@hotmail.com,
+323,13,Expired,Inactive,,,Baker,Joanna Baker,,,,,,,,,,
+324,13,Expired,Inactive,,,Chanyasulkit,Chris Chanyasulkit,,,,,,,,,Chris4tmm@gmail.com,
+325,13,Expired,Inactive,,,Freedman,Maxine Freedman,,,,,,,,,,
+326,13,Expired,Inactive,,,Frias,Valerie Frias,,,,,,,,,,
+327,13,Expired,Inactive,,,Gilligan,Beth Gilligan,,,,,,,,,,
+328,13,Expired,Inactive,,,Hoy,Gil Hoy,,,,,,,,,gilhoylaw@gmail.com,
+329,13,Expired,Inactive,,,Rhei-Gorer,Nancy Rhei-Gorer,,,,,,,,,,
+330,13,Expired,Inactive,,,Selwyn,Judith Selwyn,,,,,,,,,,
+331,13,Expired,Inactive,,,Senecal,Barbara Senecal,,,,,,,,,,
+332,13,Expired,Inactive,,,Tadmor,Ada Tadmor,,,,,,,,,ada.tadmor@gmail.com,
+333,13,Expired,Inactive,,,Veski,Shannon Veski,,,,,,,,,,
+334,13,Expired,Inactive,,,Warner,Donald Warner,,,,,,,,,,
+335,14,2025,Active,Carla,Wyman,Benka,Carla Benka,,Yes,26 Circuit Road,,Chestnut Hill,MA,02467,,rcvben@earthlink.net,6172776102
+336,14,2025,Active,Richard,Dick,Benka,Richard Benka,,Yes,26 Circuit Road,,Chestnut Hill,MA,02467,,rcvben@verizon.net,6172776102
+337,14,2025,Active,Jesse,,Hefter,Jesse Hefter,,Yes,653 Chestnut Hill Avenue,,Brookline,MA,02445,School Committee,jesse.hefter@gmail.com,7817712618
+338,14,2025,Active,Kathleen,M,O'Connell,Kathleen O'Connell,,,59 Ackers Avenue,2,Brookline,MA,02445,,kathleenjp59@gmail.com,6177345331
+339,14,2025,Active,Lynda,E,Roseman,Lynda Roseman,,Yes,49 Ackers Avenue,,Brookline,MA,02445,,leroseman@gmail.com,6178232737
+340,14,2026,Active,Shaari,S.,Mittel,Shaari Mittel,,Yes,309 Buckminster Road,,Brookline,MA,02445,,shaarimittel@aol.com,6172770043
+341,14,2026,Active,Youkavet,,Samih,Youkavet Samih,,,1799 Beacon Street,1,Brookline,MA,02445,,yukabrookline@gmail.com,6179037048
+342,14,2026,Active,Sharon,R.,Schoffmann,Sharon Schoffmann,,,6 Eliot Crescent,1,Chestnut Hill,MA,02467,,sharon9999@hotmail.com,6178344148
+343,14,2026,Active,Sami,,Zelkha,Sami Zelkha,,,228 Dean Road,,Brookline,MA,02445,,samiforbrookline@gmail.com,6177449363
+344,14,2026,Active,Sassan,,Zelkha,Sassan Zelkha,,,1799 Beacon Stereet,1,Brookline,MA,02445,Trustee of the Public Library,sassanbrookline@gmail.com,6173839704
+345,14,2027,Active,David,E.,Eisenberg,David Eisenberg,,New,76 Buckminster Rd,,Brookline,MA,02445,,david.e.eisenberg@gmail.com,6172775953
+346,14,2027,Active,Richard,,Fredkin,Richard Fredkin,,,166 Hyslop Road,,Brookline,MA,02445,Trustee of the Public Library,rick.brookline@gmail.com,6178187425
+347,14,2027,Active,Roger,R.,Lipson,Roger Lipson,,Yes,622 Chestnut Hill Avenue,,Brookline,MA,02445,,rlipson@brooklinelegal.com,6172320408
+348,14,2027,Active,Pamela,C.,Lodish,Pamela Lodish,,Yes,120 Seaver Street,C202,Brookline,MA,02445,Advisory Committee,pam@lodish.com,6175665533
+349,14,2027,Active,Carlos,,Ridruejo,Carlos Ridruejo,,Yes,16 Holland Road,,Brookline,MA,02445,Advisory Committee,carlos@caridossa.com,6179015908
+350,14,Expired,Inactive,,,Friedman,Paula Friedman,,,,,,,,,pkf@bu.edu,
+351,14,Expired,Inactive,,,Gacioch,David Gacioch,,,,,,,,,gacioch@gmail.com,
+352,14,Expired,Inactive,,,Goldstein,Kenneth Goldstein,,,,,,,,,kgoldstein@brooklinelaw.com,
+353,14,Expired,Inactive,,,Levitan,F. Levitan,,,,,,,,,,
+354,14,Expired,Inactive,,,Segel,Jennifer Segel,,,,,,,,,jenniesegel@gmail.com,
+355,14,Expired,Inactive,,,Segel,Arthur Segel,,,,,,,,,Asegel@hbs.edu,
+356,14,Expired,Inactive,,,Zinnar-Shavit,Efrat-Zinnar Shavit,,,,,,,,,,
+357,15,2025,Active,Eileen,Connell,Berger,Eileen Berger,,Yes,112 Wolcott Road,,Chestnut Hill,MA,02467,,eileenberger33@gmail.com,6177346139
+358,15,2025,Active,Hugh,,Joseph,Hugh Joseph,,New,676 Hammond St,,Chestnut Hill,MA,02467,Caucused In 05.28.24,hughjoseph@comcast.net,6172326666
+359,15,2025,Active,Janice,S.,Kahn,Janice Kahn,,Yes,63 Craftsland Road,,Chestnut Hill,MA,02467,Advisory Committee,jske514@aol.com,6177390606
+360,15,2025,Active,Richard,,Nangle,Richard Nangle,,Yes,854 Hammond Street,,Chestnut Hill,MA,02467,,ranangle1@gmail.com,6179354424
+361,15,2025,Active,Wadner,,Oge,Wadner Oge,,Yes,147 Newton Street,,Brookline,MA,02445,,wadnerforbrookline@gmail.com,6177215983
+362,15,2026,Active,Arisa,Susan,Boit,Arisa Boit,,Yes,271 Goddard Ave,,Brookline,MA,02445,,arisaboit@gmail.com,6172326464
+363,15,2026,Active,Jane,M.,Flanagan,Jane Flanagan,,,854 Hammond Street,,Chestnut Hill,MA,02467,,jmflanagan7@gmail.com,6175660622
+364,15,2026,Active,Benedicte,J.,Hallowell,Benedicte Hallowell,,,96 Sears Road,,Brookline,MA,02445,,benedicteh@aol.com,6175666333
+365,15,2026,Active,,,Hollowell,Rory Hallowell,,,,,,,,,,
+366,15,2026,Active,James,C.,Rourke,James Rourke,Jr.,,679 Hammond Street,,Chestnut Hill,MA,02467,,jim.rourke1@gmail.com,6175660970
+367,15,2027,Active,Michael,,Berger,Michael Berger,,Yes,112 Wolcott Road,,Chestnut Hill,MA,02467,Advisory Committee,Bergerart@me.com,6177346139
+368,15,2027,Active,Deborah,,Hatzieleftheriadis,Deborah Hatzieleftheriadis,,Yes,24 Whitney St,,Chestnut Hill,MA,02467,Constable,Debbiehatz6@gmail.com,6175127163
+369,15,2027,Active,Kristine,L.,Knauf,Kristine Knauf,,Yes,630 Hammond Street,106,Chestnut Hill,MA,02467,,kknauf@comcast.net,6173083870
+370,15,2027,Active,Ira,P.,Krepchin,Ira Krepchin,,,63 Craftsland Road,,Chestnut Hill,MA,02467,,irapk@alum.mit.edu,6179351285
+371,15,2027,Active,Jean,,Senat-Fleury,Jean Senat-Fleury,,,72 Rangeley Road,,Chestnut Hill,MA,02467,,jeansenatfleury@gmail.com,6174875432
+372,15,Expired,Inactive,,,Coffin,A. Coffin,,,,,,,,,,
+373,15,Expired,Inactive,,,Cunningham,Lisa Cunningham,,,,,,,,,lisa@warnercunningham.com,
+374,15,Expired,Inactive,,,Cunningham,Jason Cunningham,,,,,,,,,jcunningham11@gmail.com,
+375,15,Expired,Inactive,,,Fisher,Julian Fisher,,,,,,,,,,
+376,15,Expired,Inactive,,,Gutman,Barbara Gutman,,,,,,,,,barbara@barbaragutmanconsulting.com,
+377,15,Expired,Inactive,,,Hall,John Hall,,,,,,,,,jhall@hallprop.com,
+378,15,Expired,Inactive,,,Parla,John Parla,,,,,,,,,,
+379,15,Expired,Inactive,,,Van Der Ziel,Kea Van Der Ziel,,,,,,,,,vanderziel@earthlink.net,
+380,16,2025,Active,Laura,Kathryn,Baines-Walsh,Laura Baines-Walsh,,Yes,59 Woodcliff Road,,Chestnut Hill,MA,02467,,lkbaines@me.com,6178175674
+381,16,2025,Active,Adrienne,S.,Bowman,Adrienne Bowman,,,416 VFW Parkway,,Chestnut Hill,MA,02467,,adriennebowman@gmail.com,8572728503
+382,16,2025,Active,Stephen,,Chiumenti,Stephen Chiumenti,,,262 Russett Road,,Chestnut Hill,MA,02467,,stevechiumenti@gmail.com,6177215258
+383,16,2025,Active,Joslin,,Murphy,Joslin Murphy,,Yes,62 Baker Circle,,Chestnut Hill,MA,02467,Advisory Committee,joslinmurphy16@gmail.com,6178697260
+384,16,2025,Active,Carolyn,R.,Thall,Carolyn Thall,,,66 Beverly Road,,Chestnut Hill,MA,02467,School Committee,cthall68@comcast.net,6176698050
+385,16,2026,Active,Deborah,Moore,Abner,Deborah Abner,,Yes,265 Russett Rd,,Chestnut Hill,MA,02467,,deborahabner12@gmail.com,6179303831
+386,16,2026,Active,David,S.,Day,David Day,,,333 Russett Road,,Chestnut Hill,MA,02467,,dspencerday@gmail.com,6178939604
+387,16,2026,Active,Michael,,Harrington,Michael Harrington,,Yes,135 Beverly Road,,Chestnut Hill,MA,02467,,mharrington66@comcast.net,6177553761
+388,16,2026,Active,Judith,,Leichtner,Judith Leichtner,,Yes,121 Beverly Road,,Chestnut Hill,MA,02467,,judith.leichtner@gmail.com,6174690110
+389,16,2026,Active,Jessica,,Ryan,Jessica Ryan,,,404 Paine Ct,,Chestnut Hill,MA,02467,,jlryan25@gmail.com,6174678237
+390,16,2027,Active,Regina,M.,Frawley,Regina Frawley,,Yes,366 Russett Road,,Chestnut Hill,MA,02467,Constable,ginatmma@gmail.com,6174690052
+391,16,2027,Active,Scott,C.,Gladstone,Scott Gladstone,,,383 Russett Road,,Chestnut Hill,MA,02467,,sg@sgladstonelaw.com,6177304525
+392,16,2027,Active,Julie,A.,Jette,Julie Jette,,New,93 Payson Road,,Chestnut Hill,MA,02467,,juliejette@gmail.com,6179479235
+393,16,2027,Active,Alisa,G.,Jonas,Alisa Jonas,,,333 Russett Road,,Chestnut Hill,MA,02467,Advisory Committee,alisa@jonasdays.net,6177638620
+394,16,2027,Active,Richard,Myles,Murphy,Richard Murphy,,,61 Baker Circle,,Chestnut Hill,MA,02467,,Brookline4ever@gmail.com,6173838184
+395,16,Expired,Inactive,,,Allaire,S. Allaire,,,,,,,,,sallaire@bu.edu,
+396,16,Expired,Inactive,,,da Silva,Danielle da Silva,,,,,,,,,,
+397,16,Expired,Inactive,,,Mehta,Puja Mehta,,,,,,,,,pujamehta1006@gmail.com,
+398,16,Expired,Inactive,,,Morrissey,Michelle Morrissey,,,,,,,,,,
+399,16,Expired,Inactive,,,Pu,W. Pu,,,,,,,,,Wpu@preservebrookline.com,
+400,16,Expired,Inactive,,,Rubin,Rachel Rubin,,,,,,,,,,
+401,16,Expired,Inactive,,,Shpritz,Nathan Shpritz,,,,,,,,,nathanshpritz@comcast.net,
+402,16,Expired,Inactive,,,Sullivan,Timothy Sullivan,,,,,,,,,Timothycsullivan@gmail.com,
+403,17,2025,Active,Jacqueline,,Baum,Jacqueline Baum,,Yes,"194 Saint Paul Street, 1",,Brookline,MA,02446,,jlbaum59@yahoo.com,6175120085
+404,17,2025,Active,Jonathan,H.,Davis,Jonathan Davis,,Yes,125 Park Street,1,Brookline,MA,02446,,jdavis@kcl-law.com,6172771678
+405,17,2025,Active,Bruce,,Levin,Bruce Levin,,Yes,20 Webster St,703,Brookline,MA,02446,,bdlesq@hotmail.com,6175101850
+406,17,2025,Active,Susan,Kay ,Park,Susan Park,,Yes,27 James Street,5,Brookline,MA,02446,,mrssusanpark@yahoo.com,5515740690
+407,17,2025,Active,Linda,Olson,Pehlke,Linda Pehlke,,Yes,48 Browne Street,2,Brookline,MA,02446,Advisory Committee,lindaolsonpehlke@gmail.com,6172321965
+408,17,2026,Active,Anthony ,J.,Buono,Anthony  Buono,,Yes,12 Greenway Ct,6,Brookline,MA,02446,,anthonybuono728@gmail.com,6315608217
+409,17,2026,Active,Katherine,Elizabeth ,Haenschen,Katherine Haenschen,,New,1236 Beacon Street,,Brookline,MA,02446,,keh303@gmail.com,7733434954
+410,17,2026,Active,Jonathan,,Klein,Jonathan Klein,,,150 Saint Paul Street,406,Brookline,MA,02446,,jklein728@gmail.com,6173081952
+411,17,2026,Active,Christopher,S.,Mutty,Christopher Mutty,,,15 Green St,2,Brookline,MA,02446,,muttychristopher@gmail.com,6179352589
+412,17,2026,Active,Elizabeth,A.,Schafer,Elizabeth Schafer,,,28 James St ,3,Brookline,MA,02446,,elizabeth.schafer.wenk@gmail.com,5187271521
+413,17,2027,Active,Rita,K.,McNally,Rita McNally,,Yes,230 Saint Paul Street,,Brookline,MA,02446,,ritarulz20@aol.com,6177309812
+414,17,2027,Active,Chrisopher,,Reale,Chrisopher Reale,,New,11 Longwood Ave,,Brookline,MA,02446,,chris.reale.tmm@gmail.com,2395955207
+415,17,2027,Active,Susan,M.,Roberts,Susan Roberts,,Yes,69 Green Street,,Brookline,MA,02446,,roberts.susan.m@gmail.com,6175660204
+416,17,2027,Active,Livia,,Schachter-Kahl,Livia Schachter-Kahl,,,200 Saint Paul Street,2,Brookline,MA,02446,,liviaschachter@gmail.com,6172775159
+417,17,2027,Active,John,R.,Shreffler,John Shreffler,,New,60 Browne St,,Brookline,MA,02446,,shreffler0@gmail.com,6172320466
+418,17,Expired,Inactive,,,Bernard,Lauren Bernard,,,,,,,,,Laurenfortmm8@gmail.com,
+419,17,Expired,Inactive,,,Davis,Linda Davis,,,,,,,,,lcdtmm@gmail.com,
+420,17,Expired,Inactive,,,Kahl,Chris Kahl,,,,,,,,,,
+421,17,Expired,Inactive,,,Mariash,Uri Mariash,,,,,,,,,,
+422,17,Expired,Inactive,,,Silberberg,Isaac Silberberg,,,,,,,,,,
+423,17,Expired,Inactive,,,Yaseen,Martin Yaseen,,,,,,,,,trysegal1@yahoo.com,
+424,17,Expired,Inactive,,,Zakrzewski,Beata Zakrzweski,,,,,,,,,,
+425,AC,AC,Active,Benjamin,,Birnbaum,Benjamin Birnbaum,,,15 Feneno Terrace,2,Brookline,MA,02446,Advisory Committee,benbirnbaum18@icloud.com,6172765944
+426,AC,AC,Active,Cliff,,Brown,Cliff Brown,,Yes,9 Hyslop Rd,,Brookline,MA,02445,Advisory Committee,cbrownAC@comcast.net,6176998938
+427,AC,AC,Active,David-Marc,,Goldstein,David-Marc Goldstein,,Yes,22 Osborne Road,2,Brookline,MA,02446,Advisory Committee,dmgoldstein9@gmail.com,6179396077
+428,AC,AC,Active,Carol,S.,Levin,Carol Levin,,,61 Blake Road,,Brookline,MA,02445,Advisory Committee,carolslevin@mac.com,6177310166
+429,AC,AC,Active,Stephen,,Reeders,Stephen Reeders,,,85 Cottage Street,,Brookline,MA,02445,Advisory Committee,sr@mvm.com,6179538315
+430,AC,AC,Active,Lee,L.,Selwyn,Lee Selwyn,,,285 Reservoir Road,,Chestnut Hill,MA,02467,Advisory Committee,lselwyn@econtech.com,6172773388
+431,AC,AC,Active,Alok,,Somani,Alok Somani,,,126 Cottage Street,,Brookline,MA,02445,Advisory Committee,ninetysouth@yahoo.com,6148228315
+432,AC,AC,Active,Christine,M.,Westphal,Christine Westphal,,,31 Hurd Road,,Brookline,MA,02445,Advisory Committee,dineratend@aol.com,6177387981
+433,Clerk,2027,Active,Ben,,Kaufman,Ben Kaufman,,Yes,27 Longwood Ave 3,,Brookline,MA,02446,Town Clerk,bkaufman@brooklinema.gov,6172720052
+434,Mod,2027,Active,Neil,Alan,Wishinsky,Neil Wishinsky,,Yes,20 Henry Street,,Brookline,MA,02445,Moderator,nwishinsky@brooklinema.gov,6177978689
+435,Mod,Expired,Inactive,,,Gadsby,Edward Gadsby,,,,,,,,,,
+436,Rep,2026,Active,Hon. Tommy,,Vitolo,Hon. Tommy Vitolo,,Yes,153 University Road,,Brookline,MA,02445,State Representative,tommy.vitolo@mahouse.gov,6178728921
+437,SB,2025,Active,Michael,A.,Sandman,Michael Sandman,,,115 Sewall Avenue,4,Brookline,MA,02446,Select Board,msandman@brooklinema.gov,6175138908
+438,SB,2026,Active,John,R.,VanScoyoc,John VanScoyoc,,,307 Reservoir Road,,Chestnut Hill,MA,02467,Select Board,jvanscoyoc@brooklinema.gov,6178881663
+439,SB,2026,Active,Paul,J.,Warren,Paul Warren,,Yes,71 Carlton Street,,Brookline,MA,02446,Select Board,paulwarren65@gmail.com,6178695430
+440,SB,2027,Active,Bernard,W.,Greene,Bernard Greene,,Yes,77 Pond Ave,1402,Brookline,MA,02445,Select Board,bgreene@brooklinema.gov,8572250402
+441,SB,2027,Active,David,Arenas,Pearlman,David Pearlman,,,25 Goddard Circle,,Brookline,MA,02445,,dpearlman515@gmail.com,6178946893
+442,SB,Expired,Inactive,,,Fernandez,Raul Fernandez,,,,,,,,,,
+443,SB,Expired,Inactive,,,Franco,Ben Franco,,,,,,,,,,
+444,SB,Expired,Inactive,,,Hamilton,Heather Hamilton,,,,,,,,,,
