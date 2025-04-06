@@ -47,11 +47,6 @@ th, td {
     border-bottom: 1px solid #dddddd;
 }
 
-th {
-    background-color: #35424a;
-    color: #ffffff;
-}
-
 tr:hover {
     background-color: #f1f1f1;
 }

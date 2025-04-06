@@ -34,7 +34,7 @@ sort($precincts); // Sort precincts
 
     ob_start();
     ?>
-    <div class="table-container">
+     <div class="table-container">
         <input type="text" id="search-input" class="search-input" placeholder="Search by Candidate Name..." onkeyup="filterTable()">
         <select id="precinct-filter" class="filter-select" onchange="filterTable()">
             <option value="">All Precincts</option>
@@ -42,13 +42,27 @@ sort($precincts); // Sort precincts
                 <option value="<?php echo esc_attr($precinct); ?>"><?php echo esc_html($precinct); ?></option>
             <?php endforeach; ?>
         </select>
+        <div class="custom-multi-select" id="bills-filter-container">
+    <div class="select-trigger" onclick="toggleDropdown('bills-filter-dropdown')">
+        <span id="bills-filter-placeholder">Select bills to filter</span>
+        <span class="arrow">&#9662;</span>
+    </div>
+    <div class="dropdown" id="bills-filter-dropdown">
+        <?php foreach ($bills as $bill): ?>
+            <label class="dropdown-item">
+                <input type="checkbox" value="<?php echo esc_attr($bill['BillID']); ?>" onchange="filterTable()">
+                <?php echo esc_html($bill['Bill Name']); ?>
+            </label>
+        <?php endforeach; ?>
+    </div>
+</div>
         <table id="searchable-table">
             <thead>
                 <tr>
                     <th>Candidate Name</th>
                     <th>Candidate Precinct</th>
                     <?php foreach ($bills as $bill): ?>
-                        <th><?php echo esc_html($bill['Bill Name']); ?></th>
+                        <th data-bill-id="<?php echo esc_attr($bill['BillID']); ?>"><?php echo esc_html($bill['Bill Name']); ?></th>
                     <?php endforeach; ?>
                 </tr>
             </thead>
@@ -58,37 +72,86 @@ sort($precincts); // Sort precincts
                         <td><?php echo esc_html($candidate['Name']); ?></td>
                         <td><?php echo esc_html(ltrim($candidate['Precinct'], '0')); ?></td>
                         <?php foreach ($bills as $bill): ?>
-                            <td>
-                                <?php
-                                $vote = $votes_map[$candidate['Candidate ID']][$bill['BillID']] ?? 'No Vote';
-                                echo esc_html($vote);
-                                ?>
-                            </td>
-                        <?php endforeach; ?>
+    <td data-bill-id="<?php echo esc_attr($bill['BillID']); ?>" 
+    <?php
+$vote = $votes_map[$candidate['Candidate ID']][$bill['BillID']] ?? '';
+    ?>
+        style="
+            <?php 
+                if (in_array($vote, ['Absent', 'ABSTAIN', '' ])) {
+                    echo 'background-color: white;';
+                } elseif ($vote === $bill['Bill Endorsement']) {
+                    echo 'background-color: green; color: white;';
+                } else {
+                    echo 'background-color: red; color: white;';
+                }
+            ?>
+        ">
+        <?php
+        echo esc_html($vote);
+        ?>
+    </td>
+<?php endforeach; ?>
                     </tr>
                 <?php endforeach; ?>
             </tbody>
         </table>
     </div>
     <script>
-        function filterTable() {
-            const searchInput = document.getElementById('search-input').value.toLowerCase();
-            const precinctFilter = document.getElementById('precinct-filter').value.toLowerCase();
-            const table = document.getElementById('searchable-table');
-            const rows = table.getElementsByTagName('tr');
+    function toggleDropdown(dropdownId) {
+        const dropdown = document.getElementById(dropdownId);
+        dropdown.style.display = dropdown.style.display === 'block' ? 'none' : 'block';
+    }
 
-            for (let i = 1; i < rows.length; i++) {
-                const cells = rows[i].getElementsByTagName('td');
-                const candidateName = cells[0].textContent.toLowerCase();
-                const candidatePrecinct = cells[1].textContent.toLowerCase();
+    function filterTable() {
+        const searchInput = document.getElementById('search-input').value.toLowerCase();
+        const precinctFilter = document.getElementById('precinct-filter').value.toLowerCase();
+        const billsFilter = Array.from(document.querySelectorAll('#bills-filter-dropdown input:checked')).map(input => input.value);
+        const table = document.getElementById('searchable-table');
+        const rows = table.getElementsByTagName('tr');
+        const billHeaders = table.querySelectorAll('thead th[data-bill-id]');
+        const billColumns = Array.from(billHeaders).map((header, index) => ({
+            billID: header.getAttribute('data-bill-id'),
+            index: index + 2 // Adjust for Candidate Name and Precinct columns
+        }));
 
-                const matchesSearch = candidateName.includes(searchInput);
-                const matchesPrecinct = precinctFilter === '' || candidatePrecinct === precinctFilter;
+        // Update placeholder text
+        const placeholder = document.getElementById('bills-filter-placeholder');
+        placeholder.textContent = billsFilter.length > 0 ? `${billsFilter.length} bill(s) selected` : 'Select bills to filter';
 
-                rows[i].style.display = matchesSearch && matchesPrecinct ? '' : 'none';
-            }
+        // Show/hide columns based on selected bills
+        billHeaders.forEach(header => {
+            const billID = header.getAttribute('data-bill-id');
+            header.style.display = billsFilter.length === 0 || billsFilter.includes(billID) ? '' : 'none';
+        });
+
+        Array.from(rows).forEach((row, rowIndex) => {
+            if (rowIndex === 0) return; // Skip header row
+            const cells = row.getElementsByTagName('td');
+            const candidateName = cells[0].textContent.toLowerCase();
+            const candidatePrecinct = cells[1].textContent.toLowerCase();
+
+            // Show/hide cells based on selected bills
+            billColumns.forEach(column => {
+                cells[column.index].style.display = billsFilter.length === 0 || billsFilter.includes(column.billID) ? '' : 'none';
+            });
+
+            const matchesSearch = candidateName.includes(searchInput);
+            const matchesPrecinct = precinctFilter === '' || candidatePrecinct === precinctFilter;
+
+            row.style.display = matchesSearch && matchesPrecinct ? '' : 'none';
+        });
+    }
+
+    // Close dropdown when clicking outside
+    document.addEventListener('click', function (event) {
+        const dropdown = document.getElementById('bills-filter-dropdown');
+        const trigger = document.querySelector('.select-trigger');
+        if (!dropdown.contains(event.target) && !trigger.contains(event.target)) {
+            dropdown.style.display = 'none';
         }
-    </script>
+    });
+</script>
     <?php
     return ob_get_clean();
 }
