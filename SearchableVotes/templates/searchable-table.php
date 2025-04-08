@@ -11,7 +11,7 @@ function render_searchable_table() {
 
     // Fetch data from the database
     $candidates = $wpdb->get_results("SELECT * FROM wp_Candidates", ARRAY_A);
-    $bills = $wpdb->get_results("SELECT * FROM wp_Bills", ARRAY_A);
+    $bills = $wpdb->get_results("SELECT * FROM wp_Bills ORDER BY BillID DESC", ARRAY_A);
     $votes = $wpdb->get_results("SELECT * FROM wp_Votes", ARRAY_A);
 
     // Prepare data for rendering
@@ -31,72 +31,78 @@ $precincts = array_unique(array_map(function($precinct) {
 }, array_column($candidates, 'Precinct')));
 sort($precincts); // Sort precincts
 
-
     ob_start();
     ?>
-     <div class="table-container">
-        <input type="text" id="search-input" class="search-input" placeholder="Search by Candidate Name..." onkeyup="filterTable()">
-        <select id="precinct-filter" class="filter-select" onchange="filterTable()">
-            <option value="">All Precincts</option>
-            <?php foreach ($precincts as $precinct): ?>
-                <option value="<?php echo esc_attr($precinct); ?>"><?php echo esc_html($precinct); ?></option>
-            <?php endforeach; ?>
-        </select>
-        <div class="custom-multi-select" id="bills-filter-container">
-    <div class="select-trigger" onclick="toggleDropdown('bills-filter-dropdown')">
-        <span id="bills-filter-placeholder">Select bills to filter</span>
-        <span class="arrow">&#9662;</span>
-    </div>
-    <div class="dropdown" id="bills-filter-dropdown">
-        <?php foreach ($bills as $bill): ?>
-            <label class="dropdown-item">
-                <input type="checkbox" value="<?php echo esc_attr($bill['BillID']); ?>" onchange="filterTable()">
-                <?php echo esc_html($bill['Bill Name']); ?>
-            </label>
+<div class="table-container">
+    <input type="text" id="search-input" class="search-input" placeholder="Search by Candidate Name..." onkeyup="filterTable()">
+    <select id="precinct-filter" class="filter-select" onchange="filterTable()">
+        <option value="">All Precincts</option>
+        <?php foreach ($precincts as $precinct): ?>
+            <option value="<?php echo esc_attr($precinct); ?>"><?php echo esc_html($precinct); ?></option>
         <?php endforeach; ?>
+    </select>
+    <div class="custom-multi-select" id="bills-filter-container">
+        <div class="select-trigger" onclick="toggleDropdown('bills-filter-dropdown')">
+            <span id="bills-filter-placeholder">Select bills to filter</span>
+            <span class="arrow">&#9662;</span>
+        </div>
+        <div class="dropdown" id="bills-filter-dropdown">
+            <?php foreach ($bills as $bill): ?>
+                <label class="dropdown-item">
+                    <input type="checkbox" value="<?php echo esc_attr($bill['BillID']); ?>" onchange="filterTable()">
+                    <?php echo esc_html($bill['Bill Name']); ?>
+                </label>
+            <?php endforeach; ?>
+        </div>
     </div>
-</div>
-        <table id="searchable-table">
-            <thead>
-                <tr>
-                    <th>Candidate Name</th>
-                    <th>Candidate Precinct</th>
-                    <?php foreach ($bills as $bill): ?>
-                        <th data-bill-id="<?php echo esc_attr($bill['BillID']); ?>"><?php echo esc_html($bill['Bill Name']); ?></th>
-                    <?php endforeach; ?>
-                </tr>
-            </thead>
-            <tbody>
-                <?php foreach ($candidates as $candidate): ?>
-                    <tr>
-                        <td><?php echo esc_html($candidate['Name']); ?></td>
-                        <td><?php echo esc_html(ltrim($candidate['Precinct'], '0')); ?></td>
-                        <?php foreach ($bills as $bill): ?>
-    <td data-bill-id="<?php echo esc_attr($bill['BillID']); ?>" 
-    <?php
-$vote = $votes_map[$candidate['Candidate ID']][$bill['BillID']] ?? '';
-    ?>
-        style="
-            <?php 
-                if (in_array($vote, ['Absent', 'ABSTAIN', '' ])) {
-                    echo 'background-color: white;';
-                } elseif ($vote === $bill['Bill Endorsement']) {
-                    echo 'background-color: green; color: white;';
-                } else {
-                    echo 'background-color: red; color: white;';
-                }
-            ?>
-        ">
-        <?php
-        echo esc_html($vote);
-        ?>
-    </td>
-<?php endforeach; ?>
-                    </tr>
+    <div class="hide-inactive-filter">
+        <label>
+            <input type="checkbox" id="hide-inactive-filter" checked onchange="filterTable()"> Hide Inactive Town Meeting Members
+        </label>
+    </div>
+    <table id="searchable-table">
+        <thead>
+            <tr>
+                <th>Candidate Name</th>
+                <th>Candidate Precinct</th>
+                <?php foreach ($bills as $bill): ?>
+                    <th data-bill-id="<?php echo esc_attr($bill['BillID']); ?>"><?php echo esc_html($bill['Bill Name']); ?></th>
                 <?php endforeach; ?>
-            </tbody>
-        </table>
-    </div>
+            </tr>
+        </thead>
+        <tbody>
+        <?php foreach ($candidates as $candidate): ?>
+            <tr data-active-status="<?php echo esc_attr($candidate['Active?']); ?>">
+                <td><?php echo esc_html($candidate['Name']); ?></td>
+                <td><?php echo esc_html(ltrim($candidate['Precinct'], '0')); ?></td>
+                <?php foreach ($bills as $bill): ?>
+                    <td data-bill-id="<?php echo esc_attr($bill['BillID']); ?>" 
+                    <?php
+                    $vote = $votes_map[$candidate['Candidate ID']][$bill['BillID']] ?? '';
+                    ?>
+                        style="
+                            <?php 
+                            if ($vote === 'ABSTAIN') {
+                                echo 'background-color: #C0C0C0; color: black;';
+                            } elseif (in_array($vote, ['Absent', '' ])) {
+                                echo 'background-color: white;';
+                            } elseif ($vote === $bill['Bill Endorsement']) {
+                                echo 'background-color: green; color: white;';
+                            } else {
+                                echo 'background-color: red; color: white;';
+                            }
+                            ?>
+                        ">
+                        <?php
+                        echo esc_html($vote);
+                        ?>
+                    </td>
+                <?php endforeach; ?>
+            </tr>
+        <?php endforeach; ?>
+    </tbody>
+</table>
+</div>
     <script>
     function toggleDropdown(dropdownId) {
         const dropdown = document.getElementById(dropdownId);
@@ -107,6 +113,7 @@ $vote = $votes_map[$candidate['Candidate ID']][$bill['BillID']] ?? '';
         const searchInput = document.getElementById('search-input').value.toLowerCase();
         const precinctFilter = document.getElementById('precinct-filter').value.toLowerCase();
         const billsFilter = Array.from(document.querySelectorAll('#bills-filter-dropdown input:checked')).map(input => input.value);
+        const hideInactive = document.getElementById('hide-inactive-filter').checked;
         const table = document.getElementById('searchable-table');
         const rows = table.getElementsByTagName('tr');
         const billHeaders = table.querySelectorAll('thead th[data-bill-id]');
@@ -130,6 +137,7 @@ $vote = $votes_map[$candidate['Candidate ID']][$bill['BillID']] ?? '';
             const cells = row.getElementsByTagName('td');
             const candidateName = cells[0].textContent.toLowerCase();
             const candidatePrecinct = cells[1].textContent.toLowerCase();
+            const isActive = row.getAttribute('data-active-status') === 'Active';
 
             // Show/hide cells based on selected bills
             billColumns.forEach(column => {
@@ -138,8 +146,9 @@ $vote = $votes_map[$candidate['Candidate ID']][$bill['BillID']] ?? '';
 
             const matchesSearch = candidateName.includes(searchInput);
             const matchesPrecinct = precinctFilter === '' || candidatePrecinct === precinctFilter;
+            const matchesActive = !hideInactive || isActive;
 
-            row.style.display = matchesSearch && matchesPrecinct ? '' : 'none';
+            row.style.display = matchesSearch && matchesPrecinct && matchesActive ? '' : 'none';
         });
     }
 
@@ -150,6 +159,11 @@ $vote = $votes_map[$candidate['Candidate ID']][$bill['BillID']] ?? '';
         if (!dropdown.contains(event.target) && !trigger.contains(event.target)) {
             dropdown.style.display = 'none';
         }
+    });
+
+    // Run filterTable on page load
+    document.addEventListener('DOMContentLoaded', function () {
+        filterTable();
     });
 </script>
     <?php

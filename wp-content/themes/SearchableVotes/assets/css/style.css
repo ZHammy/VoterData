@@ -52,6 +52,10 @@ th, td {
     border-radius: 4px;
 }
 
+.hide-inactive-filter {
+    margin-bottom: 20px; 
+}
+
 .custom-multi-select {
     position: relative;
     width: 100%;
