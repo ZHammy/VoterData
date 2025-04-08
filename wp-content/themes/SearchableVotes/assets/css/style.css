@@ -16,7 +16,7 @@ h1 {
     color: #333;
 }
 
-.table-container {
+.page-container {
     margin: 20px 0;
     background: #fff;
     padding: 20px;
@@ -30,7 +30,7 @@ table {
 }
 
 th, td {
-    padding: 10px;
+    padding: 8px;
     text-align: left;
     border-bottom: 1px solid #ddd;
 }
@@ -109,4 +109,42 @@ th, td {
 
 .dropdown-item input {
     margin-right: 10px;
+}
+
+
+.table-container {
+    overflow: auto; /* Ensure the container is scrollable */
+    position: relative; /* Required for sticky positioning */
+    white-space: nowrap;
+    max-height: 750px;
+    border: 1px solid #ddd;
+}
+
+.sticky-column {
+    position: sticky;
+    background-color: #fff; /* Ensure sticky columns have a background */
+    z-index: 9999; /* Very high z-index to ensure they appear above other content */
+    border-right: 1px solid #ddd;
+}
+
+.sticky-column:first-child {
+    left: -20px;
+}
+
+.sticky-column:nth-child(2) {
+    left: 122px;
+}
+.table-container thead th {
+    position: sticky;
+    top: -20px; /* Pin the header row to the top */
+    background-color: #fff; /* Ensure header has a background */
+    z-index: 4; /* Ensure headers appear above other content */
+}
+
+.table-container thead th.sticky-column {
+    z-index: 10001; /* Ensure header cells have a higher z-index than body cells */
+}
+
+.table-container tbody td.sticky-column {
+    z-index: 9999; /* Ensure body cells have a lower z-index than header cells */
 }

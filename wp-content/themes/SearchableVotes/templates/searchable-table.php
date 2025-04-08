@@ -33,7 +33,7 @@ sort($precincts); // Sort precincts
 
     ob_start();
     ?>
-<div class="table-container">
+<div class="page-container">
     <input type="text" id="search-input" class="search-input" placeholder="Search by Candidate Name..." onkeyup="filterTable()">
     <select id="precinct-filter" class="filter-select" onchange="filterTable()">
         <option value="">All Precincts</option>
@@ -60,11 +60,12 @@ sort($precincts); // Sort precincts
             <input type="checkbox" id="hide-inactive-filter" checked onchange="filterTable()"> Hide Inactive Town Meeting Members
         </label>
     </div>
+<div class="table-container">
     <table id="searchable-table">
         <thead>
             <tr>
-                <th>Candidate Name</th>
-                <th>Candidate Precinct</th>
+                <th class="sticky-column">Candidate Name</th>
+                <th class="sticky-column">Candidate Precinct</th>
                 <?php foreach ($bills as $bill): ?>
                     <th data-bill-id="<?php echo esc_attr($bill['BillID']); ?>"><?php echo esc_html($bill['Bill Name']); ?></th>
                 <?php endforeach; ?>
@@ -73,8 +74,8 @@ sort($precincts); // Sort precincts
         <tbody>
         <?php foreach ($candidates as $candidate): ?>
             <tr data-active-status="<?php echo esc_attr($candidate['Active?']); ?>">
-                <td><?php echo esc_html($candidate['Name']); ?></td>
-                <td><?php echo esc_html(ltrim($candidate['Precinct'], '0')); ?></td>
+                <td class="sticky-column"><?php echo esc_html($candidate['Name']); ?></td>
+                <td class="sticky-column"><?php echo esc_html(ltrim($candidate['Precinct'], '0')); ?></td>
                 <?php foreach ($bills as $bill): ?>
                     <td data-bill-id="<?php echo esc_attr($bill['BillID']); ?>" 
                     <?php
@@ -100,8 +101,10 @@ sort($precincts); // Sort precincts
                 <?php endforeach; ?>
             </tr>
         <?php endforeach; ?>
-    </tbody>
-</table>
+        </tbody>
+    </table>
+</div>
+
 </div>
     <script>
     function toggleDropdown(dropdownId) {
