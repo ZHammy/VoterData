@@ -26,21 +26,34 @@ h1 {
 
 table {
     width: 100%;
-    border-collapse: collapse;
 }
 
 th, td {
-    padding: 8px;
+    padding: 12px;
     text-align: left;
     border-bottom: 1px solid #ddd;
 }
 
+/* Ensure table borders collapse to prevent gaps */
+#searchable-table {
+    line-height: 1.1;
+    border-spacing: 0px;
+    border-collapse: separate;
+    line-height: 1.1;
+}
 
+#searchable-table td, 
+#searchable-table th {
+    border: 1px solid #ddd; /* Adjust border color as needed */
+    box-sizing: border-box; /* Ensure padding doesn't affect border size */
+}
 
 .search-input {
     margin-bottom: 20px;
+    margin-right: 30px;
+    margin-left: 30px;
     padding: 10px;
-    width: 100%;
+    width: calc(100% - 50px); 
     border: 1px solid #ccc;
     border-radius: 4px;
 }
@@ -54,11 +67,13 @@ th, td {
 
 .hide-inactive-filter {
     margin-bottom: 20px; 
+    margin-left: auto !important;
+    order: 2;
 }
 
 .custom-multi-select {
     position: relative;
-    width: 100%;
+    width: 525px;
     margin-bottom: 20px;
     border: 1px solid #ccc;
     border-radius: 4px;
@@ -92,7 +107,7 @@ th, td {
     border: 1px solid #ccc;
     border-top: none;
     background: #fff;
-    z-index: 1000;
+    z-index: 10002;
     display: none;
 }
 
@@ -123,20 +138,24 @@ th, td {
 .sticky-column {
     position: sticky;
     background-color: #fff; /* Ensure sticky columns have a background */
-    z-index: 9999; /* Very high z-index to ensure they appear above other content */
     border-right: 1px solid #ddd;
+    background-clip: padding-box; /* Prevent background from extending into the border */
 }
 
+.table-container tbody td.sticky-column {
+    background-color: #fff; /* Ensure body cells of sticky columns have a background */
+}
 .sticky-column:first-child {
-    left: -20px;
+    left: -24px;
 }
 
 .sticky-column:nth-child(2) {
-    left: 122px;
+    left: 123px;
 }
+
 .table-container thead th {
     position: sticky;
-    top: -20px; /* Pin the header row to the top */
+    top: -22px;
     background-color: #fff; /* Ensure header has a background */
     z-index: 4; /* Ensure headers appear above other content */
 }
@@ -147,4 +166,18 @@ th, td {
 
 .table-container tbody td.sticky-column {
     z-index: 9999; /* Ensure body cells have a lower z-index than header cells */
+}
+
+.filter-container {
+    display: flex;
+    align-items: center;
+    gap: 10px; /* Adjust spacing between filters */
+    margin-right: 30px;
+    margin-left: 30px
+}
+
+.filter-select,
+.custom-multi-select,
+.hide-inactive-filter {
+    margin: 0;
 }

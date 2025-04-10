@@ -35,6 +35,7 @@ sort($precincts); // Sort precincts
     ?>
 <div class="page-container">
     <input type="text" id="search-input" class="search-input" placeholder="Search by Candidate Name..." onkeyup="filterTable()">
+    <div class="filter-container">
     <select id="precinct-filter" class="filter-select" onchange="filterTable()">
         <option value="">All Precincts</option>
         <?php foreach ($precincts as $precinct): ?>
@@ -60,6 +61,7 @@ sort($precincts); // Sort precincts
             <input type="checkbox" id="hide-inactive-filter" checked onchange="filterTable()"> Hide Inactive Town Meeting Members
         </label>
     </div>
+</div>
 <div class="table-container">
     <table id="searchable-table">
         <thead>
