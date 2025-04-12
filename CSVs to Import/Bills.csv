@@ -1,93 +1,93 @@
-BillID,Bill Name,Bill Description,Bill Endorsement
-1,11/2019 - WA9,RETF Referral,No
-2,11/2019 - WA9,RETF Resolution,Yes
-3,11/2019 2019 - WA15,(No recorded vote),Yes
-4,11/2019 - WA19,ADUs,Yes
-5,11/2019 - WA20,Micro Units in Coolidge Corner,Yes
-6,06/2020 - Main motions Articles 9 through 12,,Yes
-7,6/2020 - Main motion Article 14,,Yes
-8,6/2020 - Main motion Article 15,,Yes
-9,11/2020 Renter Notification (WA24),,YES
-10,11/2020 Renter Notification (WA25),,YES
-11,11/2020 - Article 27 Pehlke-Margolis Motion to Refer,,NO
-12,11/2020 - Article 27 Dempsey Motion to Refer,,YES
-13,11/2020 - Article 34 Advisory Committee & Select Board Substitute Motion,,NO
-14,11/2020 - Article 34 Main Motion,,YES
-15,11/2020 - Article 7 Main Motion,,YES
-16,11/2020 - Article 8 O'Neal Amendment,,YES
-17,11/2020 - Article 8 Main Motion,,YES
-18,"11/2020 - Motion to Refer Article 9, 10, 11 to mod committee",,YES
-19,11/2020 - Article 12 Main Motion,,YES
-20,11/2020 - Article 32 Main Motion,,YES
-21,"05/2021 - Article 14, 16, 17 Referral Motion","Refer Articles 14 (other than the contingent motion), 16 and 17 to a Moderator's committee",NO
-22,05/2021 - Article 17 Main Motion,Amend the Town’s General Bylaws pertaining to Short Term Rentals,YES
-23,05/2021 - Article 16 Main Motion,Amend Article 10.2 of the Town’s General Bylaws pertaining to the enforcement of Short Term Rental Regulations,YES
-24,05/2021 - Article 14 Main Motion,Amend the Town’s Zoning Bylaws pertaining to Short Term Rentals.,YES
-25,05/2021 - Article 18 Main Motion,Amend the Town's Preservation Commission and Historic Districts Bylaw to extend the Lawrence Local Historic District,NO
-26,05/2021 - Article 18 Motion to Reconsider,,NO
-27,05/2021 - Article 18 Motion to Terminate Debate,,YES
-28,05/2021 - Article 18 Motion to Refer,Motion to refer Article 18 to a Moderator's Committee,YES
-29,05/2021 - Article 18 Main Motion,Amend the Town's Preservation Commission and Historic Districts Bylaw to extend the Lawrence Local Historic District,NO
-30,05/2021 - STM Article 1 and 2 Main Motion,Resolution relative to WIFI access at BHA,YES
-31,05/2021 - Article 21 Main Motion,Amend the Town’s Zoning Bylaws pertaining to micro unit dwellings and age restricted units in the Emerald Island Special District,YES
-32,05/2021 - Article 25 Main Motion,Amend the Town's Zoning By-law to require new buildings in the Emerald Island Special District to be Fossil Fuel Free (FFF),YES
-33,05/2021 - Article 26 Main Motion,Amend the Town’s Zoning Bylaws to incentivize Fossil Fuel Free (FFF) infrastructure in new construction and significant rehabilitation of buildings by special permit,YES
-34,05/2021 - Article 27 Main Motion,Petition for a special act exempting the Brookline Housing Authority from certain bidding requirements for the construction and development of affordable housing at 32 Marion Street,YES
-35,05/2021 - Article 29 Main Motion,Amend the Town’s General Bylaws to permit the use of sidewalks and outdoor premises for year-round outdoor restaurant seating,YES
-36,05/2021 - Article 30 Main Motion,Amend the Town’s Zoning Bylaws to authorize year-round outdoor restaurant seating,YES
-37,05/2021 - Article 32 Select Board Amendment,,YES
-38,05/2021 - Article 32 Main Motion,Amend the Town’s General Bylaws to establish a Community Preservation Committee,YES
-39,05/2021 - Article 23 Main Motion,Amend Section 4.08 of the Town’s Zoning Bylaw pertaining to Affordable Housing Requirements,YES
-40,05/2021 - Article 39 Main Motion,Resolution to create a Babcock Street Parking Lot Study Committee,YES
-41,11/2021 - Article 23 Advisory Committee Amendment,,NO
-42,11/2021 - Article 23 Main Motion,Amend Article VI of the Town’s Zoning By-Laws to amend off-street residential parking requirements,YES
-43,11/2021 - Article 25 Motion to Refer,Amend Article VI of the Town’s Zoning By-Laws to increase the requirements for EV ready parking spaces,YES
-44,11/2021 - Article 26 Main Motion,Resolution to Transform Our Planning and Zoning in the Age of COVID (Comprehensive Planning),YES
-45,11/2021 - Article 20 Main Motion,Amend the Town's Preservation Commission and Historic Districts Bylaw to establish the Olmsted-Richardson Local Historic District,Abstain (No is better)
-46,5/2022 - Article 8 Item 44 Vogt Amendment,"Increase funding for sidewalk rehab by $147,000 in an effort to bring all sidewalks into compliance with ""Public Right of Way Accessibility Guidelines"" by 2030",YES
-47,5/2022 - Article 10 Main Motion,Transfer of funds to support developing of Comprehensive Plan,YES
-48,5/2022 - Article 14 Main Motion,Amend Article 9.05 of the Town’s Zoning By-Laws pertaining to Conditions for Approval of Special Permits to expressly authorize the Zoning Board of Appeals to attach conditions related to construction impact mitigation,YES
-49,5/2022 - Article 16 Main Motion,Amend Article 4.07 – Table of Use Regulations of the Town’s Zoning By-Laws to provide a minimum depth to required ground floor non-residential space in multifamily buildings that are located in Local Business (L) and General Business (G) Zoning Districts.,YES
-50,5/2022 - Article 17 Main Motion,Amend Article 6 of the Town’s Zoning By-Laws to increase the requirements for electric vehicle-ready parking spaces,YES
-51,5/2022 - Article 18 Main Motion,Amend Articles 2 and 6 of the Town’s Zoning By-Laws pertaining to Bicycle Parking and Design Regulations,YES
-52,5/2022 - Article 26 Motion to Refer,Amend Article 3.16 of the Town’s General By-Laws pertaining to the Park and Recreation Commission,NO (Yes on the Main Motion)
-53,5/2022 - Article 30 Main Motion,Resolution regarding eliminating the parking requirement at the Kent/Station Street Senior Affordable Housing Development,YES
-54,11/2022 - Article 10 Main Motion,Create a new Article 8.39 of the Town’s General By-Laws to create a Tree Preservation By-Law,YES
-55,11/2022 - Article 21 Main Motion,Petition for a special act regarding betterment loans for residential electrification,YES
-56,11/2022 - Article 23 Main Motion,Petition for a special act regarding Community Choice Aggregation,YES
-57,11/2022 - Articel 25 Main Motion,Petition for a special act regarding Green Zoning,YES
-58,11/2022 - Article 26 Main Motion,Petition for a special act regarding a methane emissions surcharge,YES
-59,11/2022 - Article 28 Main Motion,Petition for a special act regarding an emissions reduction fund,YES
-60,11/2022 - Article 29 Main Motion,Petition for a special act regarding a gasoline vehicle excise surcharge,YES
-61,11/2022 - Article 11 Main Motion,Amend Article 5.3.9 of the Town’s General By-Law to extend demolition delay,NO
-62,11/2022 - Article 12 Main Motion,Create a new Section 4.14 of the Town’s Zoning By-Law to create a temporary demolition moratorium for residential structures,NO
-63,11/2022 - Article 13 Motion to Refer,,YES
-64,11/2022 - Article 13 Main Motion,Amend Section 5.09 of the Town’s Zoning By-Law to require design review after the expiration of a stay of demolition,NO
-65,11/2022 - Article 40 Main Motion,Resolution regarding a feasibility study for an outdoor pool,n/a
-66,11/2022 - Article 41 Main Motion,Resolution regarding an affordable housing overlay district (AHOD) study committee,YES
-67,5/2023 - Article 7 Bond Item 69 Fisher Amendment,,NO
-68,5/2023 - Article 7 Bond Item 69 Select Board Substitute Motion,,YES
-69,5/2023 - Article 7 Bond Item 69,Pierce funding,YES
-70,5/2023 - Article 8 Main Motion,Annual (FY24) Community Preservation Program Budget,YES
-71,5/2023 - Article 13 Main Motion,Create a new Article 3.12A of the Town’s General By-Laws to establish an Office of Housing Stability,YES
-72,5/2023 - Article 14 Main Motion,Amend Article 4.08 of the Town’s Zoning By-Laws (Inclusionary Zoning) to lower the unit threshold for developments that must include onsite affordable housing units,YES
-73,5/2023 - Article 15 Main Motion,"Amend Article 5.9 of the Town’s General By-Laws to clarify and update votes previously taken regarding the Stretch Code and Specialized Energy Code, and add fossil fuel free restrictions in accordance with the MA DOER Demonstration Project",YES
-74,5/2023 - Article 16 Main Motion,Amend the Zoning Map and Articles 3 and 5 of the Town’s Zoning By-Laws to create a new zoning district to set forth building massing requirements in two existing T-5 (two-family) zoning districts north of Beacon Street to encourage reuse and deter demolition,Yes (but really no for T5(NH))
-75,11/2023 - STM4 Article 1 Motion to Refer,,NO
-76,11/2023 - STM4 Article 1 Main Motion,MBTA Communities Act – Consensus Article,YES
-77,11/2023 - Article 6 Main Motion,Amend Zoning By-Law to change three lots on Mason Terrace from the SC-7 District to the M-1.5 District,YES
-78,11/2023 - Article 11 Main Motion,Amend Article 3.25 of the General By-Laws to change “Community Preservation Committee” to “Community Preservation Act Committee”,YES
-79,11/2023 - Article 16 Main Motion,Home Rule Petition to implement rent stabilization and tenant eviction protections,YES
-80,05/2024 - Article 11 Motion to Divide the Question,,NO
-81,05/2024 - Article 11 Main Motion,Annual (FY25) Community Preservation Act Fund Appropriations,YES
-82,05/2024 - Article 12 Main Motion,"Accept Chapter 59, Section 5K of the General Laws, allowing an expansion of the Senior Tax work off program",YES
-83,05/2024 - Article 13 Main Motion,Amend the Town’s Zoning By-law to reduce the restrictions for Accessory Dwelling Units,YES
-84,05/2024 - Article 14 Main Motion,Amend the Town’s Zoning By-law to reduce the setbacks needed for energy saving devices,YES
-85,11/2024 - Article 7 Motion to Refer,Planning Depts 2.5 story height cap / Referral,NO
-86,11/2024 - Article 8 Motion to Refer,Parcel size SP for 2 family conversions / Referral,NO
-87,11/2024 - Article 8 Main Motion,Amend Section 5.05 of the Town’s Zoning By-Laws to allow the Zoning Board of Appeals to waive the minimum lot size requirement when granting a special permit for the conversion of single family buildings into two-family units in SC or T Districts,YES
-88,11/2024 - Article 9 Motion to Refer,T + 1 referral :-(,NO
-89,11/2024 - Article 10 Main Motion,". Amend Article XI (Harvard Street Form-Based Zones) of the Town’s Zoning By-Laws to increase the list of allowed exterior materials, provide greater flexibility in certain exterior elements, and make modifications to comply with state law",YES
-90,11/2024 - Article 11 Main Motion,"Amend Article XI (Harvard Street Form-Based Zones) of the Town’s Zoning By-Laws to allow the Planning Board to permit substitutions or modifications to massing, façade and architecture standards",YES
-91,11/2024 - Article 14 Motion to Refer,Allow separate ownership on same parcel,NO
-92,11/2024 - Article 15 Main Motion,Amend Use 51B and Section 4.05.3 of the Town’s Zoning By-Law to comply with the state requirements in the Affordable Homes Act,YES
+BillID,Priority,Bill Name,Session,Short Description,Bill Description,Bill Endorsement
+1,,11/2019 - WA9,Fall 2019,,Refer the resolution seeking a Real Estate Transfer Tax to the Land Bank Study Committee,No
+2,X,11/2019 - WA9,Fall 2019,Real Estate Transfer Fee,Resolution to seek authorization from the Legislature to levy a Real Estate Transfer Tax (RETT) to fund expenditures related to affordable housing,Yes
+3,,11/2019 2019 - WA15,Fall 2019,,(No recorded vote),Yes
+4,X,11/2019 - WA19,Fall 2019,Legalize Accessory Dwelling Units,Allow Accessory Dwelling Units (ADUs) in Brookline,Yes
+5,X,11/2019 - WA20,Fall 2019,Legalize Micro Units,Legalize Micro Units (apartments smaller than 500 square feet) in Coolidge Corner,Yes
+6,,06/2020 - Main motions Articles 9 through 12,Spring 2020,,Zoning change to allow for the development of Senior Housing on Fisher Hill,Yes
+7,,6/2020 - Main motion Article 14,Spring 2020,,Create a municipal use zoning district on a portion of the former Newbury College on Fisher Hill,Yes
+8,,6/2020 - Main motion Article 15,Spring 2020,,Authorize the Town to buy a portion of the former Newbury College on Fisher Hill,Yes
+9,,11/2020 Renter Notification (WA24),Fall 2020,,Require notifications that go to certain property owners to also go to renters,YES
+10,,11/2020 Renter Notification (WA25),Fall 2020,,Require notifications that go to certain property owners to also go to renters,YES
+11,,11/2020 - Article 27 Pehlke-Margolis Motion to Refer,Fall 2020,,Refer the idea of legalizing small apartments under 500 square feet to a newly created zoning oversight committee,NO
+12,,11/2020 - Article 27 Dempsey Motion to Refer,Fall 2020,,Refer the idea of legalizing small apartments under 500 square feet to the Planning Department,YES
+13,,11/2020 - Article 34 Advisory Committee & Select Board Substitute Motion,Fall 2020,,Article 34 was a resolution to recognize that housing affordability is a major problem in Brookline and more housing supply is an important part of the solution. This substitute motion watered down the original resolution.,NO
+14,X,11/2020 - Article 34 Main Motion,Fall 2020,Recognizing Brookline's Housing Shortage,A watered down version of a resolution intended to recognize the housing shortage and affordability crises impacting Brookline residents.,YES
+15,,11/2020 - Article 7 Main Motion,Fall 2020,,"Updating Brookline's Inclusionary Zoning to help multifamily projects get built, and, in turn, funding the Housing Trust Fund used to supplement low income housing projects.",YES
+16,,11/2020 - Article 8 O'Neal Amendment,Fall 2020,,Expand the Brookline Housing Advisory Board to include an additional member from low- and moderate-income renters of affordably housing.,YES
+17,,11/2020 - Article 8 Main Motion,Fall 2020,,Expand the Brookline Housing Advisory Board to include an additional member from low- and moderate-income renters of affordably housing.,YES
+18,,11/2020 - Motion to Refer Article 9 10 11 to mod committee,Fall 2020,,"Articles 9, 10, and 11 were intended to establish rules and regulations around short term rentals. This vote sent the regulations back for further study and analysis.",YES
+19,,11/2020 - Article 12 Main Motion,Fall 2020,,"Officially accept the Community Preservation Act, which would establish a local property tax surcharge of 1% to be used for affordable housing, open space and recreation, and historic preservation.",YES
+20,X,11/2020 - Article 32 Main Motion,Fall 2020,Budget Equity Resolution,"A non-binding Resolution submitted by petition that seeks to establish higher budget priorities for affordable housing, including improvements in public housing; reimagined policing; community engagement; school social work; internet access in public housing; and food security.  ",YES
+21,,05/2021 - Article 14 16 17 Referral Motion,Spring 2021,,Refer Articles 14 (other than the contingent motion) 16 and 17 to a Moderator's committee,NO
+22,,05/2021 - Article 17 Main Motion,Spring 2021,,Amend the Town's Bylaws to create Short Term Rental regulations,YES
+23,,05/2021 - Article 16 Main Motion,Spring 2021,,Amend the Town's Bylaws pertaining to the enforcement of Short Term Rental Regulations,YES
+24,,05/2021 - Article 14 Main Motion,Spring 2021,,Amend the Town's Bylaws to create Short Term Rental regulations,YES
+25,X,05/2021 - Article 18 Main Motion,Spring 2021,Expand Lawrence Local Historic District,Expand the Lawrence Local Historic District,NO
+26,,05/2021 - Article 18 Motion to Reconsider,Spring 2021,,,NO
+27,,05/2021 - Article 18 Motion to Terminate Debate,Spring 2021,,,YES
+28,,05/2021 - Article 18 Motion to Refer,Spring 2021,,Motion to refer Article 18 to a Moderator's Committee,YES
+29,,05/2021 - Article 18 Main Motion,Spring 2021,,Expand the Lawrence Local Historic District,NO
+30,,05/2021 - STM Article 1 and 2 Main Motion,Spring 2021,,Resolution relative to WIFI access at BHA,YES
+31,,05/2021 - Article 21 Main Motion,Spring 2021,,Legalize small apartments (under 500 sq ft) and senior housing in the Emerald Isle overlay,YES
+32,,05/2021 - Article 25 Main Motion,Spring 2021,,Amend the Zoning By-law to require new buildings in the Emerald Island Special District to be Fossil Fuel Free (FFF),YES
+33,X,05/2021 - Article 26 Main Motion,Spring 2021,Incentivize Fossil Fuel Free Infrastructure,Amend the Town's Zoning Bylaws to incentivize Fossil Fuel Free (FFF) infrastructure in new construction and significant rehabilitation of buildings by special permit,YES
+34,,05/2021 - Article 27 Main Motion,Spring 2021,,Petition for a special act exempting the Brookline Housing Authority from certain bidding requirements for the construction and development of affordable housing at 32 Marion Street,YES
+35,,05/2021 - Article 29 Main Motion,Spring 2021,,Amend the Town's General Bylaws to permit the use of sidewalks and outdoor premises for year-round outdoor restaurant seating,YES
+36,,05/2021 - Article 30 Main Motion,Spring 2021,,Amend the Town's Zoning Bylaws to authorize year-round outdoor restaurant seating,YES
+37,,05/2021 - Article 32 Select Board Amendment,Spring 2021,,,YES
+38,,05/2021 - Article 32 Main Motion,Spring 2021,,Establish a Community Preservation Committee,YES
+39,,05/2021 - Article 23 Main Motion,Spring 2021,,Update the Inclusionary Zoning requirements to make more households eligible for subsidized homes,YES
+40,X,05/2021 - Article 39 Main Motion,Spring 2021,Babcock Street Parking Lot Study Committee,Resolution to create a Babcock Street Parking Lot Study Committee,YES
+41,,11/2021 - Article 23 Advisory Committee Amendment,Fall 2021,,,NO
+42,X,11/2021 - Article 23 Main Motion,Fall 2021,Lower Parking Minimums,Lower the Town's off-street residential parking requirements,YES
+43,X,11/2021 - Article 25 Motion to Refer,Fall 2021,EV Ready Parking in New Developments,Increase the requirements for EV ready parking spaces in new developments,YES
+44,,11/2021 - Article 26 Main Motion,Fall 2021,,Resolution asking the Town to embark on a comprehensive planning process,YES
+45,,11/2021 - Article 20 Main Motion,Fall 2021,,Amend the Town's Preservation Commission and Historic Districts Bylaw to establish the Olmsted-Richardson Local Historic District,Abstain (No is better)
+46,,5/2022 - Article 8 Item 44 Vogt Amendment,Spring 2022,,"Increase funding for sidewalk rehab by $147000 in an effort to bring all sidewalks into compliance with ""Public Right of Way Accessibility Guidelines"" by 2030",YES
+47,,5/2022 - Article 10 Main Motion,Spring 2022,,Transfer of funds to support developing of Comprehensive Plan,YES
+48,,5/2022 - Article 14 Main Motion,Spring 2022,,Expressly authorize the Zoning Board of Appeals to attach conditions related to construction impact mitigation,YES
+49,,5/2022 - Article 16 Main Motion,Spring 2022,,Create a minimum depth of required ground floor non-residential space in multifamily buildings that are located in Local Business (L) and General Business (G) Zoning Districts.,YES
+50,,5/2022 - Article 17 Main Motion,Spring 2022,,Increase the requirements for electric vehicle-ready parking spaces,YES
+51,X,5/2022 - Article 18 Main Motion,Spring 2022,Bicycle Parking Requirements & Regulations,Update minimum Bicycle Parking requirements and Design Regulations,YES
+52,,5/2022 - Article 26 Motion to Refer,Spring 2022,,Amend Article 3.16 of the Town's General By-Laws pertaining to the Park and Recreation Commission,NO (Yes on the Main Motion)
+53,X,5/2022 - Article 30 Main Motion,Spring 2022,Kent/Station Street Senior Housing Resolution,Resolution lowering the parking requirement at the Kent/Station Street Senior Affordable Housing Development to allow for the project to get built,YES
+54,,11/2022 - Article 10 Main Motion,Fall 2022,,Create a new Tree Preservation By-Law,YES
+55,,11/2022 - Article 21 Main Motion,Fall 2022,,Petition for a special act regarding betterment loans for residential electrification,YES
+56,,11/2022 - Article 23 Main Motion,Fall 2022,,Petition for a special act regarding Community Choice Aggregation,YES
+57,,11/2022 - Articel 25 Main Motion,Fall 2022,,Petition for a special act regarding Green Zoning,YES
+58,,11/2022 - Article 26 Main Motion,Fall 2022,,Petition for a special act regarding a methane emissions surcharge,YES
+59,,11/2022 - Article 28 Main Motion,Fall 2022,,Petition for a special act regarding an emissions reduction fund,YES
+60,,11/2022 - Article 29 Main Motion,Fall 2022,,Petition for a special act regarding a gasoline vehicle excise surcharge,YES
+61,,11/2022 - Article 11 Main Motion,Fall 2022,,Amend Article 5.3.9 of the Town's General By-Law to extend demolition delay,NO
+62,,11/2022 - Article 12 Main Motion,Fall 2022,,Create a new temporary demolition moratorium for residential structures,NO
+63,,11/2022 - Article 13 Motion to Refer,Fall 2022,,,YES
+64,X,11/2022 - Article 13 Main Motion,Fall 2022,New Design Review Requirements after Demolition Delay,New by-law to require design review after the expiration of a stay of demolition,NO
+65,X,11/2022 - Article 40 Main Motion,Fall 2022,Outdoor Pool Study,Resolution regarding a feasibility study for an outdoor pool,n/a
+66,X,11/2022 - Article 41 Main Motion,Fall 2022,Affordable Housing Overlay District Study,Resolution regarding an affordable housing overlay district (AHOD) study committee,YES
+67,X,5/2023 - Article 7 Bond Item 69 Fisher Amendment,Spring 2023,Effort to Delay/Defund Pierce Rebuild,Budget amendment intended to delay or not fund the Pierce rebuild project,NO
+68,X,5/2023 - Article 7 Bond Item 69 Select Board Substitute Motion,Spring 2023,Effort to Underfund Pierce Rebuild,Budget amendment from John VanScoyoc to go against the will of the voters and refuse to authorize the funding capacity for the Pierce School rebuild,YES
+69,X,5/2023 - Article 7 Bond Item 69,Spring 2023,Approval to Fund Pierce Rebuild,Approval of Pierce School rebuild funding,YES
+70,,5/2023 - Article 8 Main Motion,Spring 2023,,Annual (FY24) Community Preservation Program Budget,YES
+71,X,5/2023 - Article 13 Main Motion,Spring 2023,Establish Office of Housing Stability,Article to establish an Office of Housing Stability,YES
+72,,5/2023 - Article 14 Main Motion,Spring 2023,,Amend the Town's Inclusionary Zoning by-law to lower the unit threshold for developments that must include onsite affordable housing units,YES
+73,,5/2023 - Article 15 Main Motion,Spring 2023,,Amend the Town's General By-Laws to clarify and update votes previously taken regarding the Stretch Code and Specialized Energy Code and add fossil fuel free restrictions in accordance with the MA DOER Demonstration Project,YES
+74,,5/2023 - Article 16 Main Motion,Spring 2023,,Create new design and massing requirements to limit options when modifying or rebuilding a home in certain two family districts.,Yes (but really no for T5(NH))
+75,,11/2023 - STM4 Article 1 Motion to Refer,Fall 2023,,,NO
+76,X,11/2023 - STM4 Article 1 Main Motion,Fall 2023,MBTA Communities Act Compliance Proposal,"Zoning by-law to comply with the state's MBTA Communities Act, legalizing 4 story mixed use buildings on Harvard Street and implementig form based codes.",YES
+77,X,11/2023 - Article 6 Main Motion,Fall 2023,Allow Multifamily on More Lots on Corey Hill,Amend Zoning By-Law to change three lots on Mason Terrace to allow multifamily housing,YES
+78,,11/2023 - Article 11 Main Motion,Fall 2023,,"Change ""Community Preservation Committee"" to ""Community Preservation Act Committee""",YES
+79,X,11/2023 - Article 16 Main Motion,Fall 2023,Rent Stabalization Home Rule Petition,Home Rule Petition to implement rent stabilization and tenant eviction protections,YES
+80,,05/2024 - Article 11 Motion to Divide the Question,Spring 2024,,,NO
+81,,05/2024 - Article 11 Main Motion,Spring 2024,,Annual (FY25) Community Preservation Act Fund Appropriations,YES
+82,,05/2024 - Article 12 Main Motion,Spring 2024,,Accept Chapter 59 Section 5K of the General Laws allowing an expansion of the Senior Tax work off program,YES
+83,X,05/2024 - Article 13 Main Motion,Spring 2024,Ease Restrictions on Accessory Dwelling Units,Amend the Town's Zoning By-law to reduce the restrictions for building Accessory Dwelling Units,YES
+84,X,05/2024 - Article 14 Main Motion,Spring 2024,Ease Requirements to Install Energy Saving Equipment,Amend the Town's Zoning By-law to reduce the setbacks needed for energy saving devices,YES
+85,,11/2024 - Article 7 Motion to Refer,Fall 2024,,Zoning article to cap heights in two family districts to 2.5 stories / Referral to a Committee,NO
+86,X,11/2024 - Article 8 Motion to Refer,Fall 2024,Refer for Further Study the Easing of Restrictions on 1 to 2 family Conversions,Make it easier to convert a single family to two family in certain districts / Referral to a committee for further study,NO
+87,X,11/2024 - Article 8 Main Motion,Fall 2024,Ease Restriction on 1 to 2 family Conversions,Allow the Zoning Board of Appeals to waive the minimum lot size requirement when granting a special permit for the conversion of single family buildings into two-family units in SC or T Districts,YES
+88,X,11/2024 - Article 9 Motion to Refer,Fall 2024,Refer for Further Study Legalizing 3 family homes in 2 family districts,Allow homes in two-family districts to add a third home / Referral to a committee for further study,NO
+89,,11/2024 - Article 10 Main Motion,Fall 2024,,Amend the Harvard Street Form-Based Zones to increase the list of allowed exterior materials provide greater flexibility in certain exterior elements and make modifications to comply with state law,YES
+90,,11/2024 - Article 11 Main Motion,Fall 2024,,Amend the Harvard Street Form-Based Zones to allow the Planning Board to permit substitutions or modifications to massing faÃ§ade and architecture standards,YES
+91,,11/2024 - Article 14 Motion to Refer,Fall 2024,,Allow separate ownership on same parcel,NO
+92,X,11/2024 - Article 15 Main Motion,Fall 2024,Loosen regulations for building ADUs,Amend the Town's Accessory Dwelling Unit regulations to attempt to comply with state ADU guidelines,YES
