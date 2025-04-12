@@ -11,7 +11,7 @@ function render_searchable_table() {
 
     // Fetch data from the database
     $candidates = $wpdb->get_results("SELECT * FROM wp_Candidates", ARRAY_A);
-    $bills = $wpdb->get_results("SELECT * FROM wp_Bills ORDER BY BillID DESC", ARRAY_A);
+    $bills = $wpdb->get_results("SELECT * FROM wp_Bills WHERE Priority = 'X' ORDER BY BillID DESC", ARRAY_A);
     $votes = $wpdb->get_results("SELECT * FROM wp_Votes", ARRAY_A);
 
     // Prepare data for rendering
@@ -51,7 +51,7 @@ sort($precincts); // Sort precincts
             <?php foreach ($bills as $bill): ?>
                 <label class="dropdown-item">
                     <input type="checkbox" value="<?php echo esc_attr($bill['BillID']); ?>" onchange="filterTable()">
-                    <?php echo esc_html($bill['Bill Name']); ?>
+                    <?php echo esc_attr(preg_replace('/\\\\(.)/', '$1', esc_html($bill['Session'] . ': ' . $bill['Short Description']))); ?>
                 </label>
             <?php endforeach; ?>
         </div>
@@ -61,18 +61,43 @@ sort($precincts); // Sort precincts
             <input type="checkbox" id="hide-inactive-filter" checked onchange="filterTable()"> Hide Inactive Town Meeting Members
         </label>
     </div>
+    <div class="color-legend">
+        <strong>Color Legend:</strong>
+        <ul style="list-style: none; padding: 0; margin: 10px 0;">
+            <li><span style="display: inline-block; width: 20px; height: 20px; background-color: green; margin-right: 10px; border: 1px solid #000;"></span>Voted in the endorsed way</li>
+            <li><span style="display: inline-block; width: 20px; height: 20px; background-color: red; margin-right: 10px; border: 1px solid #000;"></span>Voted against the endorsement</li>
+            <li><span style="display: inline-block; width: 20px; height: 20px; background-color: white; margin-right: 10px; border: 1px solid #ddd;"></span>Absent</li>
+            <li><span style="display: inline-block; width: 20px; height: 20px; background-color: #C0C0C0; margin-right: 10px; border: 1px solid #000;"></span>Abstain</li>
+        </ul>
+    </div>
+    <div id="modal-overlay" class="modal-overlay">
+    <div id="bill-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-button" onclick="closeBillModal()">&times;</span>
+            <h2 id="modal-title"></h2>
+            <p id="modal-description"></p>
+        </div>
+    </div>
+</div>
 </div>
 <div class="table-container">
     <table id="searchable-table">
         <thead>
-            <tr>
-                <th class="sticky-column">Candidate Name</th>
-                <th class="sticky-column">Candidate Precinct</th>
-                <?php foreach ($bills as $bill): ?>
-                    <th data-bill-id="<?php echo esc_attr($bill['BillID']); ?>"><?php echo esc_html($bill['Bill Name']); ?></th>
-                <?php endforeach; ?>
-            </tr>
-        </thead>
+        <tr>
+            <th class="sticky-column">Candidate Name</th>
+            <th class="sticky-column">Candidate Precinct</th>
+            <?php foreach ($bills as $bill): ?>
+                <th 
+                    data-bill-id="<?php echo esc_attr($bill['BillID']); ?>" 
+                    data-bill-description="<?php echo esc_attr(preg_replace('/\\\\(.)/', '$1', $bill['Bill Description'])); ?>" 
+                    onclick="showBillModal(this)">
+                    <a href="javascript:void(0);" style="text-decoration: underline; color: blue;">
+                        <?php echo esc_attr(preg_replace('/\\\\(.)/', '$1', esc_html($bill['Session'] . ': ' . $bill['Short Description']))); ?>
+                    </a>
+                </th>
+            <?php endforeach; ?>
+        </tr>
+    </thead>
         <tbody>
         <?php foreach ($candidates as $candidate): ?>
             <tr data-active-status="<?php echo esc_attr($candidate['Active?']); ?>">
@@ -156,6 +181,42 @@ sort($precincts); // Sort precincts
             row.style.display = matchesSearch && matchesPrecinct && matchesActive ? '' : 'none';
         });
     }
+
+    function showBillModal(element) {
+    const modal = document.getElementById('bill-modal');
+    const overlay = document.getElementById('modal-overlay');
+    const title = document.getElementById('modal-title');
+    const description = document.getElementById('modal-description');
+
+    // Get the bill name and description from the clicked element
+    const billName = element.textContent;
+    const billDescription = element.getAttribute('data-bill-description');
+
+    // Populate the modal
+    title.textContent = billName;
+    description.textContent = billDescription;
+
+    // Show the modal and overlay
+    overlay.style.display = 'block';
+    modal.style.display = 'block';
+}
+
+function closeBillModal() {
+    const modal = document.getElementById('bill-modal');
+    const overlay = document.getElementById('modal-overlay');
+
+    // Hide the modal and overlay
+    modal.style.display = 'none';
+    overlay.style.display = 'none';
+}
+
+// Close the modal when clicking outside of it
+window.onclick = function(event) {
+    const overlay = document.getElementById('modal-overlay');
+    if (event.target === overlay) {
+        closeBillModal();
+    }
+};
 
     // Close dropdown when clicking outside
     document.addEventListener('click', function (event) {

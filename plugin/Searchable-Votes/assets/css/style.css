@@ -1,0 +1,272 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+.page-container {
+    margin: 20px 0;
+    background: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+table {
+    width: 100%;
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+/* Ensure table borders collapse to prevent gaps */
+#searchable-table {
+    line-height: 1.1;
+    border-spacing: 0px;
+    border-collapse: separate;
+    line-height: 1.1;
+}
+
+#searchable-table th a {
+    text-decoration: underline;
+    color: blue;
+    cursor: pointer;
+}
+
+#searchable-table th a:hover {
+    color: darkblue;
+}
+
+#searchable-table td, 
+#searchable-table th {
+    border: 1px solid #ddd; /* Adjust border color as needed */
+    box-sizing: border-box; /* Ensure padding doesn't affect border size */
+}
+
+.search-input {
+    margin-bottom: 20px;
+    margin-right: 30px;
+    margin-left: 30px;
+    padding: 10px;
+    width: calc(100% - 50px) !important; 
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.filter-select {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.hide-inactive-filter {
+    margin-bottom: 20px; 
+    margin-left: auto !important;
+    order: 2;
+}
+
+.custom-multi-select {
+    position: relative;
+    width: 525px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background: #fff;
+    cursor: pointer;
+}
+
+.select-trigger {
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.select-trigger:hover {
+    background-color: #f9f9f9;
+}
+
+.arrow {
+    font-size: 12px;
+    color: #666;
+}
+
+.dropdown {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    max-height: 200px;
+    overflow-y: auto;
+    border: 1px solid #ccc;
+    border-top: none;
+    background: #fff;
+    z-index: 10002;
+    display: none;
+}
+
+.dropdown-item {
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.dropdown-item:hover {
+    background-color: #f2f2f2;
+}
+
+.dropdown-item input {
+    margin-right: 10px;
+}
+
+
+.table-container {
+    overflow: auto; /* Ensure the container is scrollable */
+    position: relative; /* Required for sticky positioning */
+    max-height: 750px; /* Optional: Limit the height of the table container */
+}
+
+.sticky-column {
+    position: sticky;
+    background-color: #fff; /* Ensure sticky columns have a background */
+    border-right: 1px solid #ddd;
+    background-clip: padding-box; /* Prevent background from extending into the border */
+}
+
+.table-container tbody td.sticky-column {
+    background-color: #fff; /* Ensure body cells of sticky columns have a background */
+}
+.sticky-column:first-child {
+    left: 0px;
+}
+
+.sticky-column:nth-child(2) {
+    left: 189px;
+}
+
+.candidate-name {
+    min-width: 189px;
+    max-width: 189px;
+}
+
+.table-container thead th {
+    position: sticky;
+    top: 0; /* Ensure the header sticks to the top */
+    z-index: 4; /* Ensure headers appear above other content */
+    background-color: #fff; /* Ensure header has a background */
+    border-bottom: 1px solid #ddd; /* Optional: Add a border for better visibility */
+}
+.table-container thead th.sticky-column {
+    z-index: 10001; /* Ensure header cells have a higher z-index than body cells */
+}
+
+.table-container tbody td.sticky-column {
+    z-index: 9999; /* Ensure body cells have a lower z-index than header cells */
+}
+
+.filter-container {
+    display: flex;
+    align-items: center;
+    gap: 10px; /* Adjust spacing between filters */
+    margin-right: 30px;
+    margin-left: 30px
+}
+
+.filter-select,
+.custom-multi-select,
+.hide-inactive-filter {
+    margin: 0;
+}
+
+/* Modal overlay to blur the background */
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black */
+    z-index: 99999; /* Ensure it is above other elements */
+    backdrop-filter: blur(5px); /* Blur effect */
+    display: none; /* Hidden by default */
+}
+
+/* Modal content box */
+.modal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    z-index: 1000000; /* Above the overlay */
+    width: 50%; /* Adjust width as needed */
+    max-width: 600px;
+}
+
+/* Close button */
+.close-button {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.close-button:hover,
+.close-button:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.color-legend {
+    display: block;
+    margin-top: 20px; /* Add spacing above the legend */
+    margin-left: 20px;
+}
+
+.color-legend ul {
+    display: flex;
+    flex-wrap: wrap; /* Ensure items wrap if they don't fit in one line */
+    list-style: none;
+    padding: 0;
+    margin: 10px 0;
+}
+
+.color-legend li {
+    display: flex;
+    align-items: center;
+    margin-right: 20px; /* Add spacing between items */
+}
+
+.color-legend li span {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    border: 1px solid #000;
+}
+
+.ht-main-content{
+    max-width: 95% !important
+}
