@@ -4,8 +4,18 @@ function render_searchable_table() {
     global $wpdb;
 
     // Fetch data from the database
-    $candidates = $wpdb->get_results("SELECT * FROM wp_Candidates", ARRAY_A);
-    $bills = $wpdb->get_results("SELECT * FROM wp_Bills WHERE Priority = 'X' ORDER BY BillID DESC", ARRAY_A);
+    $candidates = $wpdb->get_results("
+        SELECT * 
+        FROM wp_Candidates 
+        ORDER BY 
+            CASE 
+                WHEN Precinct REGEXP '^[0-9]+$' THEN 0 -- Numeric precincts first
+                ELSE 1 -- Non-numeric precincts last
+            END, 
+            CAST(Precinct AS UNSIGNED) ASC, -- Sort numeric precincts numerically
+            Name ASC -- Sort alphabetically by name
+    ", ARRAY_A);
+    $bills = $wpdb->get_results("SELECT * FROM wp_Bills WHERE Priority = 'X' ORDER BY CAST(BillID AS UNSIGNED) DESC", ARRAY_A);
     $votes = $wpdb->get_results("SELECT * FROM wp_Votes", ARRAY_A);
 
     // Prepare data for rendering
@@ -18,6 +28,7 @@ function render_searchable_table() {
     foreach ($votes as $vote) {
         $votes_map[$vote['CandidateID']][$vote['BillID']] = $vote['Vote'];
     }
+
 
 // Get unique precincts for the filter dropdown
 $precincts = array_unique(array_map(function($precinct) {

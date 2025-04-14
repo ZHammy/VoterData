@@ -270,3 +270,51 @@ th, td {
 .ht-main-content{
     max-width: 95% !important
 }
+
+/* Mobile-specific styles */
+@media screen and (max-width: 768px) {
+    /* Make the filter container stack vertically */
+    .filter-container {
+        flex-direction: column;
+        align-items: stretch;
+        gap: 15px; /* Add spacing between filters */
+        margin: 10px;
+    }
+
+    .filter-select,
+    .custom-multi-select,
+    .hide-inactive-filter {
+        width: 100%; /* Make filters take full width */
+    }
+
+    /* Adjust the table container for horizontal scrolling */
+    .table-container {
+        overflow-x: auto; /* Enable horizontal scrolling */
+        margin-top: 20px;
+    }
+
+    #searchable-table {
+        min-width: 600px; /* Ensure the table doesn't shrink too much */
+        border-collapse: collapse;
+    }
+
+    #searchable-table th,
+    #searchable-table td {
+        white-space: nowrap; /* Prevent text wrapping */
+    }
+
+    /* Adjust modal overlay for smaller screens */
+    .modal-overlay {
+        padding: 10px;
+    }
+
+    .modal {
+        width: 90%; /* Make modal fit smaller screens */
+        max-width: 400px;
+    }
+
+    .table-container tbody td.sticky-column:nth-child(2),
+    .table-container thead th.sticky-column:nth-child(2) {
+        position: static;
+    }
+}
