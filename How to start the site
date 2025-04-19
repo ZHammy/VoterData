@@ -1,9 +1,0 @@
-define('DB_NAME', 'db');
-define('DB_USER', 'db');
-define('DB_PASSWORD', 'db');
-define('DB_HOST', 'db');
-
-ddev start
-ddev stop
-
-Going to need to add code to drop the existing table if new CSV is pasted, going to need the new columns as well!
