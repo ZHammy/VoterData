@@ -271,6 +271,18 @@ th, td {
     max-width: 95% !important
 }
 
+#ht-masthead{
+    z-index: 999999999999999999999999999999 !important;
+}
+
+.ht-header-above #ht-masthead {
+    position: sticky !important;
+}
+.vote-table-explanation-text{
+    padding: 10px;
+}
+
+
 /* Mobile-specific styles */
 @media screen and (max-width: 768px) {
     /* Make the filter container stack vertically */
@@ -291,16 +303,12 @@ th, td {
     .table-container {
         overflow-x: auto; /* Enable horizontal scrolling */
         margin-top: 20px;
+        zoom: 50%;
     }
 
     #searchable-table {
         min-width: 600px; /* Ensure the table doesn't shrink too much */
         border-collapse: collapse;
-    }
-
-    #searchable-table th,
-    #searchable-table td {
-        white-space: nowrap; /* Prevent text wrapping */
     }
 
     /* Adjust modal overlay for smaller screens */
@@ -313,8 +321,43 @@ th, td {
         max-width: 400px;
     }
 
-    .table-container tbody td.sticky-column:nth-child(2),
+    /* Reset sticky behavior for the second column */
+    .table-container tbody td.sticky-column:nth-child(2) {
+        position: static; /* Reset position to default */
+        top: auto; /* Remove top offset */
+        z-index: auto; /* Reset z-index */
+    }
     .table-container thead th.sticky-column:nth-child(2) {
-        position: static;
+        position: sticky;
+        top: 0; /* Ensure the header sticks to the top */
+        z-index: 4; /* Ensure headers appear above other content */
+        background-color: #fff; /* Ensure header has a background */
+        border-bottom: 1px solid #ddd; /* Optional: Add a border for better visibility */
+    }
+
+    .table-container thead th{
+        top: -2px;
+    }
+    
+    .page-container{
+        margin: 0;
+        padding: 0;
+    }
+    .ht-container{
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+
+    .sticky-column:first-child {
+        left: -2px;
+    }
+    .candidate-name {
+        min-width: 216px;
+        max-width: 216px;
+    }
+    .search-input{
+        margin-top: 10px;
+        margin-left: 10px;
+        width: calc(100% - 25px) !important;
     }
 }

@@ -39,6 +39,7 @@ sort($precincts); // Sort precincts
     ob_start();
     ?>
 <div class="page-container">
+    <h3 class="vote-table-explanation-text">This table shows how Town Meeting Members voted on important bills. You can search for members by name, filter by precinct, or pick specific bills to focus on. Click on a bill's name to see more details about it.</h3>
     <input type="text" id="search-input" class="search-input" placeholder="Search by Candidate Name..." onkeyup="filterTable()">
     <div class="filter-container">
     <select id="precinct-filter" class="filter-select" onchange="filterTable()">

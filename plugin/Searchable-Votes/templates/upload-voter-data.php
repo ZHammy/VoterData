@@ -1,4 +1,40 @@
 <?php
+function clean_csv_data($csv_data) {
+    // Create a temporary file to handle CSV parsing
+    $temp_input = tmpfile();
+    $temp_output = tmpfile();
+
+    // Write the input CSV data to the temporary input file
+    fwrite($temp_input, $csv_data);
+    rewind($temp_input);
+
+    $cleaned_data = '';
+
+    // Open the input and output streams
+    while (($row = fgetcsv($temp_input)) !== false) {
+        // Remove commas from each field
+        $cleaned_row = array_map(function ($field) {
+            return str_replace(',', '', $field);
+        }, $row);
+
+        // Write the cleaned row to the output stream
+        fputcsv($temp_output, $cleaned_row);
+    }
+
+    rewind($temp_output);
+
+    // Read the cleaned data from the output stream
+    while (($line = fgets($temp_output)) !== false) {
+        $cleaned_data .= $line;
+    }
+
+    // Close the temporary files
+    fclose($temp_input);
+    fclose($temp_output);
+
+    return $cleaned_data;
+}
+
 function render_csv_import_page() {
     global $wpdb;
 
@@ -7,6 +43,10 @@ function render_csv_import_page() {
         $csv_data = sanitize_textarea_field($_POST['csv_data']);
         $table_name = sanitize_text_field($_POST['table_name']);
         $use_auto_increment = isset($_POST['use_auto_increment']); // Check if the checkbox is checked
+
+        // Clean the CSV data
+        $csv_data = clean_csv_data($csv_data);
+
         $rows = explode("\n", $csv_data);
 
         if (empty($table_name)) {
