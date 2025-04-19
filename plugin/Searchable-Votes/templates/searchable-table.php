@@ -72,7 +72,7 @@ sort($precincts); // Sort precincts
     <strong style="width: 100%; margin-bottom: 10px;">Color Legend:</strong>
     <ul style="display: flex; list-style: none; padding: 0; margin: 0; gap: 20px;">
         <li style="display: flex; align-items: center;">
-            <span style="display: inline-block; width: 20px; height: 20px; background-color: green; margin-right: 10px; border: 1px solid #000;"></span>
+            <span style="display: inline-block; width: 20px; height: 20px; background-color: #54d562; margin-right: 10px; border: 1px solid #000;"></span>
             Voted in B4E endorsed way
         </li>
         <li style="display: flex; align-items: center;">
@@ -134,7 +134,7 @@ sort($precincts); // Sort precincts
                             } elseif (in_array($vote, ['Absent', '' ])) {
                                 echo 'background-color: white;';
                             } elseif ($vote === $bill['Bill Endorsement']) {
-                                echo 'background-color: green; color: white;';
+                                echo 'background-color: #54d562; color: white;';
                             } else {
                                 echo 'background-color: red; color: white;';
                             }
