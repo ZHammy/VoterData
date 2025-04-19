@@ -1,7 +1,7 @@
 <?php
 /**
  * Plugin Name: Searchable Votes
- * Description: A plugin to display a searchable and filterable table of bills, candidates, and votes, and upload voter data.
+ * Description: A plugin to display a searchable and filterable table of bills, candidates, and votes, and upload voter data.  https://github.com/ZHammy/VoterData
  * Version: 1.1
  * Author: Your Name
  * License: GPL2
