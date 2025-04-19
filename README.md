@@ -1,4 +1,4 @@
-Basic Wordpress Plugin.  Quick and Dirty CSV upload and table rendering. 
+Basic Wordpress Plugin.  Quick and Dirty CSV upload and table rendering.  Zip it and upload to your site to install.  Put either [upload_voter_data] or [searchable_votes_table] render the page. 
 
 The MIT License
 
